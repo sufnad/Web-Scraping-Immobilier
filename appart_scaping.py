@@ -1,8 +1,6 @@
 import requests
 import bs4
 import re
-import pandas as pd
-import numpy as np
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import math
 from typing import Callable, Any
@@ -499,7 +497,7 @@ for bien in list_bien:
         verbose=False
     )
 
-    dict_to_csv(info_bien_dic, f"annonces{bien}.csv")
-    print(f"[MAIN] CSV écrit: annonces{bien}.csv | lignes={len(info_bien_dic['prix'])}")
+    dict_to_csv(info_bien_dic, f"annonces_{bien}.csv")
+    print(f"[MAIN] CSV écrit: annonces_{bien}.csv | lignes={len(info_bien_dic['prix'])}")
 
 print("[MAIN] DONE")
