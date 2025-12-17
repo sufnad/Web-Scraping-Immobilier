@@ -12,8 +12,8 @@
       },
       "properties": {
         "departement": "Ain",
-        "prix_moyen_m2": 3086.374647114073,
-        "nombre_annonces": 4124
+        "prix_moyen_m2": 2715.2265117195193,
+        "nombre_annonces": 5077
       }
     },
     {
@@ -27,8 +27,8 @@
       },
       "properties": {
         "departement": "Aisne",
-        "prix_moyen_m2": 1411.095915552351,
-        "nombre_annonces": 3540
+        "prix_moyen_m2": 1321.4651825006472,
+        "nombre_annonces": 3863
       }
     },
     {
@@ -42,8 +42,8 @@
       },
       "properties": {
         "departement": "Allier",
-        "prix_moyen_m2": 1563.0742877161545,
-        "nombre_annonces": 3427
+        "prix_moyen_m2": 1532.2374591057796,
+        "nombre_annonces": 3668
       }
     },
     {
@@ -57,8 +57,8 @@
       },
       "properties": {
         "departement": "Alpes-Maritimes",
-        "prix_moyen_m2": 7967.424016163535,
-        "nombre_annonces": 12901
+        "prix_moyen_m2": 7317.1289075518225,
+        "nombre_annonces": 15003
       }
     },
     {
@@ -72,8 +72,8 @@
       },
       "properties": {
         "departement": "Alpes-de-Haute-Provence",
-        "prix_moyen_m2": 2590.8211998558536,
-        "nombre_annonces": 2127
+        "prix_moyen_m2": 2506.5640926640926,
+        "nombre_annonces": 2590
       }
     },
     {
@@ -87,8 +87,8 @@
       },
       "properties": {
         "departement": "Ardennes",
-        "prix_moyen_m2": 1162.129867734397,
-        "nombre_annonces": 1379
+        "prix_moyen_m2": 1091.2859960552269,
+        "nombre_annonces": 1521
       }
     },
     {
@@ -102,8 +102,8 @@
       },
       "properties": {
         "departement": "Ardèche",
-        "prix_moyen_m2": 2140.093009721851,
-        "nombre_annonces": 3223
+        "prix_moyen_m2": 1845.2096148875678,
+        "nombre_annonces": 3869
       }
     },
     {
@@ -117,8 +117,8 @@
       },
       "properties": {
         "departement": "Ariège",
-        "prix_moyen_m2": 1576.682904769756,
-        "nombre_annonces": 1483
+        "prix_moyen_m2": 1446.756919374248,
+        "nombre_annonces": 1662
       }
     },
     {
@@ -132,8 +132,8 @@
       },
       "properties": {
         "departement": "Aube",
-        "prix_moyen_m2": 1680.9808027926797,
-        "nombre_annonces": 2413
+        "prix_moyen_m2": 1548.8859874954028,
+        "nombre_annonces": 2719
       }
     },
     {
@@ -147,8 +147,8 @@
       },
       "properties": {
         "departement": "Aude",
-        "prix_moyen_m2": 2219.65434130583,
-        "nombre_annonces": 7101
+        "prix_moyen_m2": 2103.093259241363,
+        "nombre_annonces": 8278
       }
     },
     {
@@ -162,8 +162,8 @@
       },
       "properties": {
         "departement": "Aveyron",
-        "prix_moyen_m2": 1653.535862398329,
-        "nombre_annonces": 2552
+        "prix_moyen_m2": 1377.2941580756014,
+        "nombre_annonces": 2910
       }
     },
     {
@@ -177,8 +177,8 @@
       },
       "properties": {
         "departement": "Bas-Rhin",
-        "prix_moyen_m2": 3125.894398579407,
-        "nombre_annonces": 5872
+        "prix_moyen_m2": 2912.208110516934,
+        "nombre_annonces": 6732
       }
     },
     {
@@ -192,8 +192,8 @@
       },
       "properties": {
         "departement": "Bouches-du-Rhône",
-        "prix_moyen_m2": 4722.249070041885,
-        "nombre_annonces": 11643
+        "prix_moyen_m2": 4272.65126918536,
+        "nombre_annonces": 13552
       }
     },
     {
@@ -207,8 +207,8 @@
       },
       "properties": {
         "departement": "Calvados",
-        "prix_moyen_m2": 3672.9617367862215,
-        "nombre_annonces": 7920
+        "prix_moyen_m2": 3395.009907251265,
+        "nombre_annonces": 9488
       }
     },
     {
@@ -222,8 +222,8 @@
       },
       "properties": {
         "departement": "Cantal",
-        "prix_moyen_m2": 1330.554906128499,
-        "nombre_annonces": 1113
+        "prix_moyen_m2": 1262.8733333333332,
+        "nombre_annonces": 1200
       }
     },
     {
@@ -237,8 +237,8 @@
       },
       "properties": {
         "departement": "Charente",
-        "prix_moyen_m2": 1475.2887411117276,
-        "nombre_annonces": 4208
+        "prix_moyen_m2": 1303.959728698601,
+        "nombre_annonces": 4718
       }
     },
     {
@@ -252,8 +252,8 @@
       },
       "properties": {
         "departement": "Charente-Maritime",
-        "prix_moyen_m2": 3563.5699780067175,
-        "nombre_annonces": 8919
+        "prix_moyen_m2": 2923.36662808004,
+        "nombre_annonces": 12094
       }
     },
     {
@@ -267,8 +267,8 @@
       },
       "properties": {
         "departement": "Cher",
-        "prix_moyen_m2": 1237.2360256853894,
-        "nombre_annonces": 3156
+        "prix_moyen_m2": 1222.0262529832935,
+        "nombre_annonces": 3352
       }
     },
     {
@@ -282,8 +282,8 @@
       },
       "properties": {
         "departement": "Corrèze",
-        "prix_moyen_m2": 1621.9111499003125,
-        "nombre_annonces": 2135
+        "prix_moyen_m2": 1441.5118043844857,
+        "nombre_annonces": 2372
       }
     },
     {
@@ -297,7 +297,7 @@
       },
       "properties": {
         "departement": "Corse-du-Sud",
-        "prix_moyen_m2": 5454.863329422537,
+        "prix_moyen_m2": 5454.8533333333335,
         "nombre_annonces": 2250
       }
     },
@@ -312,8 +312,8 @@
       },
       "properties": {
         "departement": "Creuse",
-        "prix_moyen_m2": 1067.411521981288,
-        "nombre_annonces": 1275
+        "prix_moyen_m2": 948.3815689261234,
+        "nombre_annonces": 1313
       }
     },
     {
@@ -327,8 +327,8 @@
       },
       "properties": {
         "departement": "Côte-d'Or",
-        "prix_moyen_m2": 2267.1470420353517,
-        "nombre_annonces": 3863
+        "prix_moyen_m2": 2075.5695532012896,
+        "nombre_annonces": 4342
       }
     },
     {
@@ -342,8 +342,8 @@
       },
       "properties": {
         "departement": "Côtes-d'Armor",
-        "prix_moyen_m2": 2625.840092524026,
-        "nombre_annonces": 4937
+        "prix_moyen_m2": 2453.458405246807,
+        "nombre_annonces": 5794
       }
     },
     {
@@ -357,8 +357,8 @@
       },
       "properties": {
         "departement": "Deux-Sèvres",
-        "prix_moyen_m2": 1438.6160718666854,
-        "nombre_annonces": 3198
+        "prix_moyen_m2": 2907.9482006543076,
+        "nombre_annonces": 3668
       }
     },
     {
@@ -372,8 +372,8 @@
       },
       "properties": {
         "departement": "Dordogne",
-        "prix_moyen_m2": 1859.0413770222613,
-        "nombre_annonces": 5657
+        "prix_moyen_m2": 1775.235543248086,
+        "nombre_annonces": 6139
       }
     },
     {
@@ -387,8 +387,8 @@
       },
       "properties": {
         "departement": "Doubs",
-        "prix_moyen_m2": 2592.6315609561366,
-        "nombre_annonces": 2843
+        "prix_moyen_m2": 2408.1308763784095,
+        "nombre_annonces": 3446
       }
     },
     {
@@ -402,8 +402,8 @@
       },
       "properties": {
         "departement": "Drôme",
-        "prix_moyen_m2": 2379.657856460197,
-        "nombre_annonces": 3523
+        "prix_moyen_m2": 2077.510623556582,
+        "nombre_annonces": 4330
       }
     },
     {
@@ -417,8 +417,8 @@
       },
       "properties": {
         "departement": "Essonne",
-        "prix_moyen_m2": 3259.3611599837,
-        "nombre_annonces": 8638
+        "prix_moyen_m2": 2756.8085145595282,
+        "nombre_annonces": 10852
       }
     },
     {
@@ -432,8 +432,8 @@
       },
       "properties": {
         "departement": "Eure",
-        "prix_moyen_m2": 2072.575117009662,
-        "nombre_annonces": 5428
+        "prix_moyen_m2": 1807.6318378297808,
+        "nombre_annonces": 6709
       }
     },
     {
@@ -447,8 +447,8 @@
       },
       "properties": {
         "departement": "Eure-et-Loir",
-        "prix_moyen_m2": 1978.0436322441005,
-        "nombre_annonces": 4573
+        "prix_moyen_m2": 1798.7365177195686,
+        "nombre_annonces": 5192
       }
     },
     {
@@ -462,8 +462,8 @@
       },
       "properties": {
         "departement": "Finistère",
-        "prix_moyen_m2": 2855.2973314532305,
-        "nombre_annonces": 6396
+        "prix_moyen_m2": 2728.6646698954883,
+        "nombre_annonces": 7846
       }
     },
     {
@@ -477,8 +477,8 @@
       },
       "properties": {
         "departement": "Gard",
-        "prix_moyen_m2": 2919.3982813878097,
-        "nombre_annonces": 8807
+        "prix_moyen_m2": 2620.709855207847,
+        "nombre_annonces": 10705
       }
     },
     {
@@ -492,8 +492,8 @@
       },
       "properties": {
         "departement": "Gers",
-        "prix_moyen_m2": 1865.5057176105238,
-        "nombre_annonces": 2871
+        "prix_moyen_m2": 1573.4030788564248,
+        "nombre_annonces": 3183
       }
     },
     {
@@ -507,8 +507,8 @@
       },
       "properties": {
         "departement": "Gironde",
-        "prix_moyen_m2": 3976.015809674358,
-        "nombre_annonces": 12098
+        "prix_moyen_m2": 3448.236710963455,
+        "nombre_annonces": 15652
       }
     },
     {
@@ -522,7 +522,7 @@
       },
       "properties": {
         "departement": "Guadeloupe",
-        "prix_moyen_m2": 4764.322218228638,
+        "prix_moyen_m2": 4764.306806806807,
         "nombre_annonces": 1998
       }
     },
@@ -537,7 +537,7 @@
       },
       "properties": {
         "departement": "Guyane",
-        "prix_moyen_m2": 2671.5977459340806,
+        "prix_moyen_m2": 2671.577551020408,
         "nombre_annonces": 490
       }
     },
@@ -552,8 +552,8 @@
       },
       "properties": {
         "departement": "Haut-Rhin",
-        "prix_moyen_m2": 2715.782988772611,
-        "nombre_annonces": 4565
+        "prix_moyen_m2": 2266.041568769203,
+        "nombre_annonces": 5533
       }
     },
     {
@@ -567,7 +567,7 @@
       },
       "properties": {
         "departement": "Haute-Corse",
-        "prix_moyen_m2": 3967.2139841525027,
+        "prix_moyen_m2": 3967.210666666667,
         "nombre_annonces": 2250
       }
     },
@@ -582,8 +582,8 @@
       },
       "properties": {
         "departement": "Haute-Garonne",
-        "prix_moyen_m2": 3309.883076860898,
-        "nombre_annonces": 10211
+        "prix_moyen_m2": 2763.8519392652033,
+        "nombre_annonces": 12711
       }
     },
     {
@@ -597,8 +597,8 @@
       },
       "properties": {
         "departement": "Haute-Loire",
-        "prix_moyen_m2": 1367.2955417038854,
-        "nombre_annonces": 1444
+        "prix_moyen_m2": 1929.154705882353,
+        "nombre_annonces": 1700
       }
     },
     {
@@ -612,8 +612,8 @@
       },
       "properties": {
         "departement": "Haute-Marne",
-        "prix_moyen_m2": 911.4905601241887,
-        "nombre_annonces": 1156
+        "prix_moyen_m2": 1139.5897858319604,
+        "nombre_annonces": 1214
       }
     },
     {
@@ -627,8 +627,8 @@
       },
       "properties": {
         "departement": "Haute-Savoie",
-        "prix_moyen_m2": 6078.665824719483,
-        "nombre_annonces": 8942
+        "prix_moyen_m2": 5249.79573405073,
+        "nombre_annonces": 10408
       }
     },
     {
@@ -642,8 +642,8 @@
       },
       "properties": {
         "departement": "Haute-Saône",
-        "prix_moyen_m2": 1179.7187250092613,
-        "nombre_annonces": 1452
+        "prix_moyen_m2": 1342.5587871287128,
+        "nombre_annonces": 1616
       }
     },
     {
@@ -657,8 +657,8 @@
       },
       "properties": {
         "departement": "Haute-Vienne",
-        "prix_moyen_m2": 1460.2621013793666,
-        "nombre_annonces": 3220
+        "prix_moyen_m2": 2911.383805668016,
+        "nombre_annonces": 3705
       }
     },
     {
@@ -672,8 +672,8 @@
       },
       "properties": {
         "departement": "Hautes-Alpes",
-        "prix_moyen_m2": 3538.2182541407624,
-        "nombre_annonces": 1679
+        "prix_moyen_m2": 2795.8430127041743,
+        "nombre_annonces": 2204
       }
     },
     {
@@ -687,8 +687,8 @@
       },
       "properties": {
         "departement": "Hautes-Pyrénées",
-        "prix_moyen_m2": 1998.7011577198027,
-        "nombre_annonces": 2518
+        "prix_moyen_m2": 1806.7712038303694,
+        "nombre_annonces": 2924
       }
     },
     {
@@ -702,8 +702,8 @@
       },
       "properties": {
         "departement": "Hauts-de-Seine",
-        "prix_moyen_m2": 7289.069562867906,
-        "nombre_annonces": 8118
+        "prix_moyen_m2": 7134.102150537635,
+        "nombre_annonces": 8742
       }
     },
     {
@@ -717,8 +717,8 @@
       },
       "properties": {
         "departement": "Hérault",
-        "prix_moyen_m2": 4240.565627633488,
-        "nombre_annonces": 13424
+        "prix_moyen_m2": 3220.1542704734193,
+        "nombre_annonces": 16497
       }
     },
     {
@@ -732,8 +732,8 @@
       },
       "properties": {
         "departement": "Ille-et-Vilaine",
-        "prix_moyen_m2": 3472.6852030272617,
-        "nombre_annonces": 7736
+        "prix_moyen_m2": 3044.273291925466,
+        "nombre_annonces": 9499
       }
     },
     {
@@ -747,8 +747,8 @@
       },
       "properties": {
         "departement": "Indre",
-        "prix_moyen_m2": 1139.6713893627027,
-        "nombre_annonces": 1871
+        "prix_moyen_m2": 1115.830587023687,
+        "nombre_annonces": 1942
       }
     },
     {
@@ -762,8 +762,8 @@
       },
       "properties": {
         "departement": "Indre-et-Loire",
-        "prix_moyen_m2": 2385.835649056947,
-        "nombre_annonces": 4406
+        "prix_moyen_m2": 2028.6433540827536,
+        "nombre_annonces": 5462
       }
     },
     {
@@ -777,8 +777,8 @@
       },
       "properties": {
         "departement": "Isère",
-        "prix_moyen_m2": 2840.9283778961,
-        "nombre_annonces": 8419
+        "prix_moyen_m2": 2690.9892793329363,
+        "nombre_annonces": 10074
       }
     },
     {
@@ -792,8 +792,8 @@
       },
       "properties": {
         "departement": "Jura",
-        "prix_moyen_m2": 1688.6798724527782,
-        "nombre_annonces": 1559
+        "prix_moyen_m2": 2291.625,
+        "nombre_annonces": 1808
       }
     },
     {
@@ -807,8 +807,8 @@
       },
       "properties": {
         "departement": "La Réunion",
-        "prix_moyen_m2": 3743.3180881546555,
-        "nombre_annonces": 2997
+        "prix_moyen_m2": 3435.6974958263772,
+        "nombre_annonces": 2995
       }
     },
     {
@@ -822,8 +822,8 @@
       },
       "properties": {
         "departement": "Landes",
-        "prix_moyen_m2": 3510.391863203087,
-        "nombre_annonces": 5078
+        "prix_moyen_m2": 3201.455829228243,
+        "nombre_annonces": 6090
       }
     },
     {
@@ -837,8 +837,8 @@
       },
       "properties": {
         "departement": "Loir-et-Cher",
-        "prix_moyen_m2": 1660.4352013802225,
-        "nombre_annonces": 3005
+        "prix_moyen_m2": 1904.2096913758292,
+        "nombre_annonces": 3467
       }
     },
     {
@@ -852,8 +852,8 @@
       },
       "properties": {
         "departement": "Loire",
-        "prix_moyen_m2": 1710.968122313857,
-        "nombre_annonces": 5246
+        "prix_moyen_m2": 1703.850074713598,
+        "nombre_annonces": 6023
       }
     },
     {
@@ -867,8 +867,8 @@
       },
       "properties": {
         "departement": "Loire-Atlantique",
-        "prix_moyen_m2": 3761.7379679109554,
-        "nombre_annonces": 10233
+        "prix_moyen_m2": 2908.9171286629708,
+        "nombre_annonces": 13889
       }
     },
     {
@@ -882,8 +882,8 @@
       },
       "properties": {
         "departement": "Loiret",
-        "prix_moyen_m2": 2072.9197525060285,
-        "nombre_annonces": 5338
+        "prix_moyen_m2": 1819.0105073058612,
+        "nombre_annonces": 6091
       }
     },
     {
@@ -897,8 +897,8 @@
       },
       "properties": {
         "departement": "Lot",
-        "prix_moyen_m2": 2011.088610173787,
-        "nombre_annonces": 2356
+        "prix_moyen_m2": 1699.214113873296,
+        "nombre_annonces": 2494
       }
     },
     {
@@ -912,8 +912,8 @@
       },
       "properties": {
         "departement": "Lot-et-Garonne",
-        "prix_moyen_m2": 1645.3908582780005,
-        "nombre_annonces": 4730
+        "prix_moyen_m2": 1591.439000393546,
+        "nombre_annonces": 5082
       }
     },
     {
@@ -927,8 +927,8 @@
       },
       "properties": {
         "departement": "Lozère",
-        "prix_moyen_m2": 1532.7704676070446,
-        "nombre_annonces": 422
+        "prix_moyen_m2": 1422.56512605042,
+        "nombre_annonces": 476
       }
     },
     {
@@ -942,8 +942,8 @@
       },
       "properties": {
         "departement": "Maine-et-Loire",
-        "prix_moyen_m2": 2304.58915223076,
-        "nombre_annonces": 4657
+        "prix_moyen_m2": 2807.01776384535,
+        "nombre_annonces": 5742
       }
     },
     {
@@ -957,8 +957,8 @@
       },
       "properties": {
         "departement": "Manche",
-        "prix_moyen_m2": 2301.137232223802,
-        "nombre_annonces": 4133
+        "prix_moyen_m2": 2979.124513618677,
+        "nombre_annonces": 4626
       }
     },
     {
@@ -972,8 +972,8 @@
       },
       "properties": {
         "departement": "Marne",
-        "prix_moyen_m2": 2236.0707555520235,
-        "nombre_annonces": 3540
+        "prix_moyen_m2": 2148.594163805787,
+        "nombre_annonces": 4078
       }
     },
     {
@@ -987,8 +987,8 @@
       },
       "properties": {
         "departement": "Martinique",
-        "prix_moyen_m2": 4281.411956996839,
-        "nombre_annonces": 1785
+        "prix_moyen_m2": 3518.6776905829597,
+        "nombre_annonces": 1784
       }
     },
     {
@@ -1002,8 +1002,8 @@
       },
       "properties": {
         "departement": "Mayenne",
-        "prix_moyen_m2": 1615.745087514503,
-        "nombre_annonces": 1846
+        "prix_moyen_m2": 2575.3330019880714,
+        "nombre_annonces": 2012
       }
     },
     {
@@ -1017,8 +1017,8 @@
       },
       "properties": {
         "departement": "Meurthe-et-Moselle",
-        "prix_moyen_m2": 1868.7930352501728,
-        "nombre_annonces": 4468
+        "prix_moyen_m2": 1999.9552502453387,
+        "nombre_annonces": 5095
       }
     },
     {
@@ -1032,8 +1032,8 @@
       },
       "properties": {
         "departement": "Meuse",
-        "prix_moyen_m2": 1157.9277014288589,
-        "nombre_annonces": 1100
+        "prix_moyen_m2": 1227.5612682090832,
+        "nombre_annonces": 1167
       }
     },
     {
@@ -1047,8 +1047,8 @@
       },
       "properties": {
         "departement": "Morbihan",
-        "prix_moyen_m2": 4655.210492625836,
-        "nombre_annonces": 6666
+        "prix_moyen_m2": 3208.8206125425377,
+        "nombre_annonces": 8228
       }
     },
     {
@@ -1062,8 +1062,8 @@
       },
       "properties": {
         "departement": "Moselle",
-        "prix_moyen_m2": 2061.671235311117,
-        "nombre_annonces": 5329
+        "prix_moyen_m2": 1900.5665164413288,
+        "nombre_annonces": 5991
       }
     },
     {
@@ -1077,8 +1077,8 @@
       },
       "properties": {
         "departement": "Nièvre",
-        "prix_moyen_m2": 1154.6138263375988,
-        "nombre_annonces": 2242
+        "prix_moyen_m2": 1330.5581295581296,
+        "nombre_annonces": 2331
       }
     },
     {
@@ -1092,8 +1092,8 @@
       },
       "properties": {
         "departement": "Nord",
-        "prix_moyen_m2": 2491.930855218084,
-        "nombre_annonces": 10322
+        "prix_moyen_m2": 2456.224941136899,
+        "nombre_annonces": 11892
       }
     },
     {
@@ -1107,8 +1107,8 @@
       },
       "properties": {
         "departement": "Oise",
-        "prix_moyen_m2": 2451.3645067033804,
-        "nombre_annonces": 6000
+        "prix_moyen_m2": 2239.6570478723406,
+        "nombre_annonces": 7520
       }
     },
     {
@@ -1122,8 +1122,8 @@
       },
       "properties": {
         "departement": "Orne",
-        "prix_moyen_m2": 1563.1265761818197,
-        "nombre_annonces": 2831
+        "prix_moyen_m2": 1724.3616161616162,
+        "nombre_annonces": 2970
       }
     },
     {
@@ -1137,8 +1137,8 @@
       },
       "properties": {
         "departement": "Paris",
-        "prix_moyen_m2": 11594.426527459083,
-        "nombre_annonces": 7772
+        "prix_moyen_m2": 11989.553566272018,
+        "nombre_annonces": 31167
       }
     },
     {
@@ -1152,8 +1152,8 @@
       },
       "properties": {
         "departement": "Pas-de-Calais",
-        "prix_moyen_m2": 2592.880853371072,
-        "nombre_annonces": 7469
+        "prix_moyen_m2": 2241.083285202726,
+        "nombre_annonces": 8657
       }
     },
     {
@@ -1167,8 +1167,8 @@
       },
       "properties": {
         "departement": "Puy-de-Dôme",
-        "prix_moyen_m2": 1982.6937969425449,
-        "nombre_annonces": 4504
+        "prix_moyen_m2": 1790.3781094527362,
+        "nombre_annonces": 5025
       }
     },
     {
@@ -1182,8 +1182,8 @@
       },
       "properties": {
         "departement": "Pyrénées-Atlantiques",
-        "prix_moyen_m2": 4258.358275279537,
-        "nombre_annonces": 6657
+        "prix_moyen_m2": 3673.522055073942,
+        "nombre_annonces": 7844
       }
     },
     {
@@ -1197,8 +1197,8 @@
       },
       "properties": {
         "departement": "Pyrénées-Orientales",
-        "prix_moyen_m2": 2980.095957355036,
-        "nombre_annonces": 10230
+        "prix_moyen_m2": 2843.4164330019544,
+        "nombre_annonces": 11769
       }
     },
     {
@@ -1212,8 +1212,8 @@
       },
       "properties": {
         "departement": "Rhône",
-        "prix_moyen_m2": 3885.680442376366,
-        "nombre_annonces": 9717
+        "prix_moyen_m2": 3577.5903824374946,
+        "nombre_annonces": 11479
       }
     },
     {
@@ -1227,8 +1227,8 @@
       },
       "properties": {
         "departement": "Sarthe",
-        "prix_moyen_m2": 1762.219420702423,
-        "nombre_annonces": 3621
+        "prix_moyen_m2": 2337.336481700118,
+        "nombre_annonces": 4235
       }
     },
     {
@@ -1242,8 +1242,8 @@
       },
       "properties": {
         "departement": "Savoie",
-        "prix_moyen_m2": 5103.5862107251805,
-        "nombre_annonces": 4174
+        "prix_moyen_m2": 4698.059197050389,
+        "nombre_annonces": 4882
       }
     },
     {
@@ -1257,8 +1257,8 @@
       },
       "properties": {
         "departement": "Saône-et-Loire",
-        "prix_moyen_m2": 1531.4360317967012,
-        "nombre_annonces": 4254
+        "prix_moyen_m2": 1679.62080397845,
+        "nombre_annonces": 4826
       }
     },
     {
@@ -1272,8 +1272,8 @@
       },
       "properties": {
         "departement": "Seine-Maritime",
-        "prix_moyen_m2": 2363.856289033365,
-        "nombre_annonces": 8547
+        "prix_moyen_m2": 2255.650585385547,
+        "nombre_annonces": 9908
       }
     },
     {
@@ -1287,8 +1287,8 @@
       },
       "properties": {
         "departement": "Seine-Saint-Denis",
-        "prix_moyen_m2": 4234.093586505801,
-        "nombre_annonces": 7376
+        "prix_moyen_m2": 4180.572613065327,
+        "nombre_annonces": 7960
       }
     },
     {
@@ -1302,8 +1302,8 @@
       },
       "properties": {
         "departement": "Seine-et-Marne",
-        "prix_moyen_m2": 3099.999694595994,
-        "nombre_annonces": 9449
+        "prix_moyen_m2": 2410.3792754975125,
+        "nombre_annonces": 12864
       }
     },
     {
@@ -1317,8 +1317,8 @@
       },
       "properties": {
         "departement": "Somme",
-        "prix_moyen_m2": 2153.9274991892344,
-        "nombre_annonces": 3941
+        "prix_moyen_m2": 3274.7358255451713,
+        "nombre_annonces": 4815
       }
     },
     {
@@ -1332,8 +1332,8 @@
       },
       "properties": {
         "departement": "Tarn",
-        "prix_moyen_m2": 2118.9063910044133,
-        "nombre_annonces": 3804
+        "prix_moyen_m2": 1544.7457513416816,
+        "nombre_annonces": 4472
       }
     },
     {
@@ -1347,8 +1347,8 @@
       },
       "properties": {
         "departement": "Tarn-et-Garonne",
-        "prix_moyen_m2": 1825.1806741666394,
-        "nombre_annonces": 2810
+        "prix_moyen_m2": 1584.7930315664087,
+        "nombre_annonces": 3358
       }
     },
     {
@@ -1362,8 +1362,8 @@
       },
       "properties": {
         "departement": "Territoire de Belfort",
-        "prix_moyen_m2": 1668.0327996722053,
-        "nombre_annonces": 829
+        "prix_moyen_m2": 1411.0840664711632,
+        "nombre_annonces": 1023
       }
     },
     {
@@ -1377,8 +1377,8 @@
       },
       "properties": {
         "departement": "Val-d'Oise",
-        "prix_moyen_m2": 3619.98851078627,
-        "nombre_annonces": 8049
+        "prix_moyen_m2": 3215.5651665070754,
+        "nombre_annonces": 9399
       }
     },
     {
@@ -1392,8 +1392,8 @@
       },
       "properties": {
         "departement": "Val-de-Marne",
-        "prix_moyen_m2": 5404.259865925063,
-        "nombre_annonces": 8087
+        "prix_moyen_m2": 4975.631757520923,
+        "nombre_annonces": 8842
       }
     },
     {
@@ -1407,8 +1407,8 @@
       },
       "properties": {
         "departement": "Var",
-        "prix_moyen_m2": 5478.928763651015,
-        "nombre_annonces": 12433
+        "prix_moyen_m2": 4819.101025675404,
+        "nombre_annonces": 14917
       }
     },
     {
@@ -1422,8 +1422,8 @@
       },
       "properties": {
         "departement": "Vaucluse",
-        "prix_moyen_m2": 3105.5872438589063,
-        "nombre_annonces": 6263
+        "prix_moyen_m2": 3506.424584004294,
+        "nombre_annonces": 7452
       }
     },
     {
@@ -1437,8 +1437,8 @@
       },
       "properties": {
         "departement": "Vendée",
-        "prix_moyen_m2": 3064.8752435051333,
-        "nombre_annonces": 7822
+        "prix_moyen_m2": 2949.4927027526323,
+        "nombre_annonces": 10826
       }
     },
     {
@@ -1452,8 +1452,8 @@
       },
       "properties": {
         "departement": "Vienne",
-        "prix_moyen_m2": 1487.876735339655,
-        "nombre_annonces": 3989
+        "prix_moyen_m2": 3743.727292720475,
+        "nombre_annonces": 4547
       }
     },
     {
@@ -1467,8 +1467,8 @@
       },
       "properties": {
         "departement": "Vosges",
-        "prix_moyen_m2": 1961.1928363216612,
-        "nombre_annonces": 2528
+        "prix_moyen_m2": 1665.0624783061437,
+        "nombre_annonces": 2881
       }
     },
     {
@@ -1482,8 +1482,8 @@
       },
       "properties": {
         "departement": "Yonne",
-        "prix_moyen_m2": 1442.0866508539298,
-        "nombre_annonces": 4181
+        "prix_moyen_m2": 1335.6185792349727,
+        "nombre_annonces": 4575
       }
     },
     {
@@ -1497,8 +1497,8 @@
       },
       "properties": {
         "departement": "Yvelines",
-        "prix_moyen_m2": 4355.072827128077,
-        "nombre_annonces": 10933
+        "prix_moyen_m2": 3926.206326834234,
+        "nombre_annonces": 12771
       }
     }
   ]
