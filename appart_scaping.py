@@ -40,7 +40,8 @@ def scrap_pages(max_pages: int, url: str) -> list[str]:
     ----------
     max_pages : int
         Nombre maximum de pages à parcourir (limite de sécurité pour éviter
-        des boucles trop longues ou infinies).
+        des boucles trop longues ou infinies). Aussi parceque le nombre limité de page à parcour est 30 sur 
+        le site EtreProprio.
 
     url : str
         URL de départ de la première page de résultats.
@@ -66,12 +67,14 @@ def scrap_pages(max_pages: int, url: str) -> list[str]:
             hrefs.append(a["href"])
         links_added = len(hrefs) - links_before
 
+        # print de contrôle
         pages_done += 1
         if pages_done % 5 == 0:
             print(f"[scrap_pages] {pages_done} pages parcourues, +{links_added} liens sur la dernière page, total={len(hrefs)}")
 
         class_next_page = main_page.find("div", {"class": "ep-nav-next"})
         if not class_next_page:
+            # print de contrôle
             print(f"[scrap_pages] Stop: pas de page suivante (pages_done={pages_done}, total={len(hrefs)})")
             break  # pas de page suivante
 
@@ -87,10 +90,13 @@ def scrap_pages(max_pages: int, url: str) -> list[str]:
 
 
 
-def scrape_biens(dep: str, bien_code: str, prix_min: str, prix_max: str) -> list[str]:
+def scrape_url(nbr_pages_max : int, dep: str, bien_code: str, prix_min: str, prix_max: str) -> list[str]:
     """
     Paramètres
     ----------
+    max_pages: 
+        nbr max de page à parcourir pour les paramètres séléctionnés
+
     dep : str
         Code du département (ex: "01", "75", "92").
 
@@ -110,7 +116,7 @@ def scrape_biens(dep: str, bien_code: str, prix_min: str, prix_max: str) -> list
         Liste des URLs des annonces correspondant aux critères fournis.
     """
     date_order = ['.odd.g1', '.oda.g1']
-    max_page = 30
+    
 
     url1 = f"https://www.etreproprio.com/annonces/{bien_code}.p{prix_min}{prix_max}.ld{dep}{date_order[0]}#list"
     main_page = get_page(url1)
@@ -123,21 +129,21 @@ def scrape_biens(dep: str, bien_code: str, prix_min: str, prix_max: str) -> list
         match = re.search(r"(\d+)\s+annonces", txt)
         nbr_annonces = int(match.group(1)) if match else 0
 
-    print(f"[scrape_biens] START dep={dep} bien={bien_code} prix={prix_min}{prix_max} annonces={nbr_annonces}")
+    print(f"[scrape_url] START dep={dep} bien={bien_code} prix={prix_min}{prix_max} annonces={nbr_annonces}")
 
-    hrefs = scrap_pages(max_page, url1)
+    hrefs = scrap_pages(nbr_pages_max, url1)
 
     if nbr_annonces > 600:
         nbr_annonce_rest = nbr_annonces - 600
         nbr_page_rest = math.ceil((nbr_annonce_rest) / 20)
         print(
-            f"[scrape_biens] dep={dep} bien={bien_code} prix={prix_min}{prix_max} "
+            f"[scrape_url] dep={dep} bien={bien_code} prix={prix_min}{prix_max} "
             f"-> annonces>600, pages extra={nbr_page_rest} ({nbr_annonce_rest} annonces)"
         )
         url2 = f"https://www.etreproprio.com/annonces/{bien_code}.p{prix_min}{prix_max}.ld{dep}{date_order[1]}#list"
         hrefs.extend(scrap_pages(nbr_page_rest, url2))
 
-    print(f"[scrape_biens] DONE  dep={dep} bien={bien_code} prix={prix_min}{prix_max} -> hrefs={len(hrefs)}")
+    print(f"[scrape_url] DONE  dep={dep} bien={bien_code} prix={prix_min}{prix_max} -> hrefs={len(hrefs)}")
     return hrefs
 
     
@@ -212,6 +218,7 @@ def extract_fn(href: str) -> dict | None:
 
         Retourne None si l'annonce est invalide ou si les informations
         nécessaires ne peuvent pas être extraites.
+        Fait de l'extraction d'information et exclu les unités présentes (120m2 -> 120 ...)
     """
 
     type_bien = infer_type_from_href(href)
@@ -284,6 +291,7 @@ def extract_fn(href: str) -> dict | None:
 
 def collect_urls(
     lst_dep: list[str],
+    nbr_pages_max : int,
     list_prix_min: list[str],
     list_prix_max: list[str],
     bien_code: str,
@@ -319,14 +327,23 @@ def collect_urls(
 
     total_tasks = len(lst_dep) * len(price_pairs)
     done_tasks = 0
-    print(f"[collect_urls] START bien={bien_code} tasks={total_tasks} workers={max_workers}")
+
+    # print controle
+    print(f"[collect_urls] START bien={bien_code} tasks={total_tasks} workers={max_workers} pages max {nbr_pages_max}")
 
     with ThreadPoolExecutor(max_workers=max_workers) as ex:
         futures = {}
 
         for dep in lst_dep:
             for prix_min, prix_max in price_pairs:
-                fut = ex.submit(scrape_biens, dep, bien_code, prix_min, prix_max)
+                fut = ex.submit(
+                    scrape_url,
+                    nbr_pages_max=nbr_pages_max,
+                    dep=dep,
+                    bien_code=bien_code,
+                    prix_min=prix_min,
+                    prix_max=prix_max,
+                )
                 futures[fut] = (dep, prix_min, prix_max)
 
         for fut in as_completed(futures):
@@ -350,9 +367,9 @@ def collect_urls(
 
 
 
-def parse_ads_parallel(
+def collect_fn(
     href_list: list[str],
-    extract_fn: Callable[[str, str], dict | None],
+    extract_fn: Callable[[str], dict | None],
     info_bien_dic: dict[str, list],
     max_workers: int = 15,
     verbose: bool = False,
@@ -447,8 +464,15 @@ RE_GARDEN  = re.compile(r"\d[\d\u00A0]*")
 RE_ROOM    = re.compile(r"\d+")
 RE_LOC     = re.compile(r"—\s*(.*?)\s+(\d{5})\s*—")
 
+
+# paramètre standards
+'''
 lst_dep = [f"{i:02d}" for i in range(1, 96)]
 lst_dep.remove("20")
+nbr_pages_max = 30
+list_bien = ["th", "tf", "tl", "tc"]
+'''
+
 
 list_prix_min = ["50000", "75000", "100000", "120000", "140000", "160000",
                  "180000", "200000", "240000", "260000", "280000", "300000",
@@ -459,7 +483,12 @@ list_prix_max = ["-75000", "-100000", "-120000", "-140000", "-160000", "-180000"
                  "-350000", "-375000", "-400000", "-450000", "-500000", "-600000",
                  "-700000", "-800000", "-900000", "-1000000", ""]
 
-list_bien = ["th", "tf", "tl", "tc"]
+
+#paramètres simulation:
+lst_dep = ['66']
+nbr_pages_max = 1
+list_bien = ["tf"]
+
 
 print(f"[MAIN] START biens={list_bien} deps={len(lst_dep)} tranches_prix={len(list_prix_min)}")
 
@@ -469,6 +498,7 @@ for bien in list_bien:
     MAX_WORKERS = 10
     href_list = collect_urls(
         lst_dep=lst_dep,
+        nbr_pages_max = nbr_pages_max,
         list_prix_min=list_prix_min,
         list_prix_max=list_prix_max,
         bien_code=bien,
@@ -489,7 +519,7 @@ for bien in list_bien:
         "code_postal": [],
     }
 
-    info_bien_dic = parse_ads_parallel(
+    info_bien_dic = collect_fn(
         href_list=href_list,
         extract_fn=extract_fn,
         info_bien_dic=info_bien_dic,
@@ -497,7 +527,7 @@ for bien in list_bien:
         verbose=False
     )
 
-    dict_to_csv(info_bien_dic, f"annonces_{bien}.csv")
-    print(f"[MAIN] CSV écrit: annonces_{bien}.csv | lignes={len(info_bien_dic['prix'])}")
+    dict_to_csv(info_bien_dic, f"annonces__test_{bien}.csv")
+    print(f"[MAIN] CSV écrit: annonces_test_{bien}.csv | lignes={len(info_bien_dic['prix'])}")
 
 print("[MAIN] DONE")
