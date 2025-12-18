@@ -1,0 +1,2454 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_13493a25d961e5584044add67a2b3fef {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_13493a25d961e5584044add67a2b3fef" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_13493a25d961e5584044add67a2b3fef = L.map(
+                "map_13493a25d961e5584044add67a2b3fef",
+                {
+                    center: [46.603354, 1.888334],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2628eda4604fe2efac8b539706952e56 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2628eda4604fe2efac8b539706952e56.addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+            var circle_marker_b7f1511475a5f9ec35f8d96dc9441a99 = L.circleMarker(
+                [46.0652385, 5.2847717],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.9982731093806, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_36ab6475913ff39b37edb2f22f179ebf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c1f5f1cee224cc0bd69e566eda9b9440 = $(`<div id="html_c1f5f1cee224cc0bd69e566eda9b9440" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Ain</b><br>Prix Moyen/m² : 2,715 €<br>Nombre d'annonces : 5,077</div>`)[0];
+                popup_36ab6475913ff39b37edb2f22f179ebf.setContent(html_c1f5f1cee224cc0bd69e566eda9b9440);
+            
+        
+
+        circle_marker_b7f1511475a5f9ec35f8d96dc9441a99.bindPopup(popup_36ab6475913ff39b37edb2f22f179ebf)
+        ;
+
+        
+    
+    
+            var circle_marker_02abcf40cef485e89f1eb359d8e845e7 = L.circleMarker(
+                [49.4532855, 3.606899],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.207161708644228, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_ce99be72cebb180d527e9c2af2a10dfb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cc4e4d700425266782316284b85f5d43 = $(`<div id="html_cc4e4d700425266782316284b85f5d43" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Aisne</b><br>Prix Moyen/m² : 1,321 €<br>Nombre d'annonces : 3,863</div>`)[0];
+                popup_ce99be72cebb180d527e9c2af2a10dfb.setContent(html_cc4e4d700425266782316284b85f5d43);
+            
+        
+
+        circle_marker_02abcf40cef485e89f1eb359d8e845e7.bindPopup(popup_ce99be72cebb180d527e9c2af2a10dfb)
+        ;
+
+        
+    
+    
+            var circle_marker_c7fe30203ff09239d28a070606f2a352 = L.circleMarker(
+                [46.3674641, 3.1638828],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.080088625329902, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_6529b7381804b18ec0362f6add9c0d89 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_376860961e7034f52a2034e92b04f49b = $(`<div id="html_376860961e7034f52a2034e92b04f49b" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Allier</b><br>Prix Moyen/m² : 1,532 €<br>Nombre d'annonces : 3,668</div>`)[0];
+                popup_6529b7381804b18ec0362f6add9c0d89.setContent(html_376860961e7034f52a2034e92b04f49b);
+            
+        
+
+        circle_marker_c7fe30203ff09239d28a070606f2a352.bindPopup(popup_6529b7381804b18ec0362f6add9c0d89)
+        ;
+
+        
+    
+    
+            var circle_marker_2fb0339bac42ea0992f80983a76643ae = L.circleMarker(
+                [43.9210587, 7.1790785],
+                {"bubblingMouseEvents": true, "color": "#0000ffff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ffff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.466618878498583, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_1153577df5369a25b4cce0fbf792ce8b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c1b0141073a5c8b29da2bbfedc5e9d4c = $(`<div id="html_c1b0141073a5c8b29da2bbfedc5e9d4c" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Alpes-Maritimes</b><br>Prix Moyen/m² : 7,317 €<br>Nombre d'annonces : 15,003</div>`)[0];
+                popup_1153577df5369a25b4cce0fbf792ce8b.setContent(html_c1b0141073a5c8b29da2bbfedc5e9d4c);
+            
+        
+
+        circle_marker_2fb0339bac42ea0992f80983a76643ae.bindPopup(popup_1153577df5369a25b4cce0fbf792ce8b)
+        ;
+
+        
+    
+    
+            var circle_marker_ed05407c56f2b0480bb700ff66229d83 = L.circleMarker(
+                [44.1640832, 6.1878515],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.377602554494803, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_46ac66de4862f9cf441798a4f5f0a34f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c72e0dd825ed8f53c38d80b8ea126d58 = $(`<div id="html_c72e0dd825ed8f53c38d80b8ea126d58" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Alpes-de-Haute-Provence</b><br>Prix Moyen/m² : 2,507 €<br>Nombre d'annonces : 2,590</div>`)[0];
+                popup_46ac66de4862f9cf441798a4f5f0a34f.setContent(html_c72e0dd825ed8f53c38d80b8ea126d58);
+            
+        
+
+        circle_marker_ed05407c56f2b0480bb700ff66229d83.bindPopup(popup_46ac66de4862f9cf441798a4f5f0a34f)
+        ;
+
+        
+    
+    
+            var circle_marker_d2b8cb08be000b8847775a9aa6be1de3 = L.circleMarker(
+                [49.6980118, 4.6716005],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.680981395197289, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_1ae2291e124bc6dcafff03ee391d614d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac2b45e2af4d6192f69e9acb8c48b511 = $(`<div id="html_ac2b45e2af4d6192f69e9acb8c48b511" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Ardennes</b><br>Prix Moyen/m² : 1,091 €<br>Nombre d'annonces : 1,521</div>`)[0];
+                popup_1ae2291e124bc6dcafff03ee391d614d.setContent(html_ac2b45e2af4d6192f69e9acb8c48b511);
+            
+        
+
+        circle_marker_d2b8cb08be000b8847775a9aa6be1de3.bindPopup(popup_1ae2291e124bc6dcafff03ee391d614d)
+        ;
+
+        
+    
+    
+            var circle_marker_4e50a635979d50b5963d1552ed850bba = L.circleMarker(
+                [44.815194, 4.3986525],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.211071649669284, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_587aea4459f5d0b673c7d195998c186c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dda46dccc719d31097487b7a01f3acdc = $(`<div id="html_dda46dccc719d31097487b7a01f3acdc" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Ardèche</b><br>Prix Moyen/m² : 1,845 €<br>Nombre d'annonces : 3,869</div>`)[0];
+                popup_587aea4459f5d0b673c7d195998c186c.setContent(html_dda46dccc719d31097487b7a01f3acdc);
+            
+        
+
+        circle_marker_4e50a635979d50b5963d1552ed850bba.bindPopup(popup_587aea4459f5d0b673c7d195998c186c)
+        ;
+
+        
+    
+    
+            var circle_marker_e72ddccfcd2561cba20b7f93bb0bea19 = L.circleMarker(
+                [42.9455368, 1.4065544],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.77286500928611, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_d8ae712c8a9d2fc957144e8eb5bb10ba = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6dd445a291f635691078bb38999bed11 = $(`<div id="html_6dd445a291f635691078bb38999bed11" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Ariège</b><br>Prix Moyen/m² : 1,447 €<br>Nombre d'annonces : 1,662</div>`)[0];
+                popup_d8ae712c8a9d2fc957144e8eb5bb10ba.setContent(html_6dd445a291f635691078bb38999bed11);
+            
+        
+
+        circle_marker_e72ddccfcd2561cba20b7f93bb0bea19.bindPopup(popup_d8ae712c8a9d2fc957144e8eb5bb10ba)
+        ;
+
+        
+    
+    
+            var circle_marker_73a60b13778ffeaf6312647a56a142dc = L.circleMarker(
+                [48.3201921, 4.1905397],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.461666286533512, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_c545bf13a8bb902ed19b808c56d06f21 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0ffd092daa398a1c953c39e7b48dc762 = $(`<div id="html_0ffd092daa398a1c953c39e7b48dc762" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Aube</b><br>Prix Moyen/m² : 1,549 €<br>Nombre d'annonces : 2,719</div>`)[0];
+                popup_c545bf13a8bb902ed19b808c56d06f21.setContent(html_0ffd092daa398a1c953c39e7b48dc762);
+            
+        
+
+        circle_marker_73a60b13778ffeaf6312647a56a142dc.bindPopup(popup_c545bf13a8bb902ed19b808c56d06f21)
+        ;
+
+        
+    
+    
+            var circle_marker_6bd8b83a04258fe4bfab698124f60446 = L.circleMarker(
+                [43.0542733, 2.5124715],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.084226646248085, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_471cfff9dad808027aacba6972434186 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fb51cbd44ad161be4553400a0804c19f = $(`<div id="html_fb51cbd44ad161be4553400a0804c19f" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Aude</b><br>Prix Moyen/m² : 2,103 €<br>Nombre d'annonces : 8,278</div>`)[0];
+                popup_471cfff9dad808027aacba6972434186.setContent(html_fb51cbd44ad161be4553400a0804c19f);
+            
+        
+
+        circle_marker_6bd8b83a04258fe4bfab698124f60446.bindPopup(popup_471cfff9dad808027aacba6972434186)
+        ;
+
+        
+    
+    
+            var circle_marker_d757c9ffb8e4e6172911341ee6738291 = L.circleMarker(
+                [44.3158575, 2.5065697],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.586132742497801, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_13669c1e8a0887fbc68c9d89308c7d2e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3a6728d4e0fe785ade528ca89df96e7d = $(`<div id="html_3a6728d4e0fe785ade528ca89df96e7d" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Aveyron</b><br>Prix Moyen/m² : 1,377 €<br>Nombre d'annonces : 2,910</div>`)[0];
+                popup_13669c1e8a0887fbc68c9d89308c7d2e.setContent(html_3a6728d4e0fe785ade528ca89df96e7d);
+            
+        
+
+        circle_marker_d757c9ffb8e4e6172911341ee6738291.bindPopup(popup_13669c1e8a0887fbc68c9d89308c7d2e)
+        ;
+
+        
+    
+    
+            var circle_marker_566fba0427680ebb2370e0544e363361 = L.circleMarker(
+                [48.5989894, 7.5336198],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.076765175458604, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_7a824e0da8b940477251c4070b3b227e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6d88821b60744b52550e724ded8ede6d = $(`<div id="html_6d88821b60744b52550e724ded8ede6d" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Bas-Rhin</b><br>Prix Moyen/m² : 2,912 €<br>Nombre d'annonces : 6,732</div>`)[0];
+                popup_7a824e0da8b940477251c4070b3b227e.setContent(html_6d88821b60744b52550e724ded8ede6d);
+            
+        
+
+        circle_marker_566fba0427680ebb2370e0544e363361.bindPopup(popup_7a824e0da8b940477251c4070b3b227e)
+        ;
+
+        
+    
+    
+            var circle_marker_6fc22495af19a1d30cdad17814a06ec8 = L.circleMarker(
+                [43.5424182, 5.0343236],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.52106480727249, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_1628f2498d7d0f6b4f31118a5d924a73 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2bd37695234be6320ce3c06deef9afcc = $(`<div id="html_2bd37695234be6320ce3c06deef9afcc" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Bouches-du-Rhône</b><br>Prix Moyen/m² : 4,273 €<br>Nombre d'annonces : 13,552</div>`)[0];
+                popup_1628f2498d7d0f6b4f31118a5d924a73.setContent(html_2bd37695234be6320ce3c06deef9afcc);
+            
+        
+
+        circle_marker_6fc22495af19a1d30cdad17814a06ec8.bindPopup(popup_1628f2498d7d0f6b4f31118a5d924a73)
+        ;
+
+        
+    
+    
+            var circle_marker_6fee418148910c547c5a782e97a3c4ab = L.circleMarker(
+                [49.0907886, -0.241238],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.87273141963442, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_77ebef0863aaf1640fe7a918f301e490 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_042a866cedc8548e4276255417242641 = $(`<div id="html_042a866cedc8548e4276255417242641" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Calvados</b><br>Prix Moyen/m² : 3,395 €<br>Nombre d'annonces : 9,488</div>`)[0];
+                popup_77ebef0863aaf1640fe7a918f301e490.setContent(html_042a866cedc8548e4276255417242641);
+            
+        
+
+        circle_marker_6fee418148910c547c5a782e97a3c4ab.bindPopup(popup_77ebef0863aaf1640fe7a918f301e490)
+        ;
+
+        
+    
+    
+            var circle_marker_9d684400fe47a751268dfa03a2010d8f = L.circleMarker(
+                [45.0497701, 2.6997176],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.471799550356782, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_8478c2c1a83e0fddec462b0894b8f391 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_75b3a121dbd5435e1e4f648c2452735c = $(`<div id="html_75b3a121dbd5435e1e4f648c2452735c" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Cantal</b><br>Prix Moyen/m² : 1,263 €<br>Nombre d'annonces : 1,200</div>`)[0];
+                popup_8478c2c1a83e0fddec462b0894b8f391.setContent(html_75b3a121dbd5435e1e4f648c2452735c);
+            
+        
+
+        circle_marker_9d684400fe47a751268dfa03a2010d8f.bindPopup(popup_8478c2c1a83e0fddec462b0894b8f391)
+        ;
+
+        
+    
+    
+            var circle_marker_98d581fa012dc6f41080960ab2931d4a = L.circleMarker(
+                [45.6667902, 0.097305],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.764328304714738, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_c081ac59da1354edc709ef25ec09f04d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_090f215be75b7adb0d8483b0a4f7cfdb = $(`<div id="html_090f215be75b7adb0d8483b0a4f7cfdb" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Charente</b><br>Prix Moyen/m² : 1,304 €<br>Nombre d'annonces : 4,718</div>`)[0];
+                popup_c081ac59da1354edc709ef25ec09f04d.setContent(html_090f215be75b7adb0d8483b0a4f7cfdb);
+            
+        
+
+        circle_marker_98d581fa012dc6f41080960ab2931d4a.bindPopup(popup_c081ac59da1354edc709ef25ec09f04d)
+        ;
+
+        
+    
+    
+            var circle_marker_a1b7ab064e8083050cd33f9a2979f4a7 = L.circleMarker(
+                [45.7302268, -0.7212876],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.570949138183831, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_7132ec5c7ad037e01d0d7c98a4874aae = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aaffe5700ab4657d8dfba68a0f750570 = $(`<div id="html_aaffe5700ab4657d8dfba68a0f750570" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Charente-Maritime</b><br>Prix Moyen/m² : 2,923 €<br>Nombre d'annonces : 12,094</div>`)[0];
+                popup_7132ec5c7ad037e01d0d7c98a4874aae.setContent(html_aaffe5700ab4657d8dfba68a0f750570);
+            
+        
+
+        circle_marker_a1b7ab064e8083050cd33f9a2979f4a7.bindPopup(popup_7132ec5c7ad037e01d0d7c98a4874aae)
+        ;
+
+        
+    
+    
+            var circle_marker_3513c2c6a8e4feaba11f47a95384a17b = L.circleMarker(
+                [47.0248824, 2.5753334],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.874165064676941, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_a1e7f9e81d217c378a3c335a4827a298 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_100363e8a40ea343a4bfdc23232cad35 = $(`<div id="html_100363e8a40ea343a4bfdc23232cad35" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Cher</b><br>Prix Moyen/m² : 1,222 €<br>Nombre d'annonces : 3,352</div>`)[0];
+                popup_a1e7f9e81d217c378a3c335a4827a298.setContent(html_100363e8a40ea343a4bfdc23232cad35);
+            
+        
+
+        circle_marker_3513c2c6a8e4feaba11f47a95384a17b.bindPopup(popup_a1e7f9e81d217c378a3c335a4827a298)
+        ;
+
+        
+    
+    
+            var circle_marker_595096af125a36d9e38ae52a711f9769 = L.circleMarker(
+                [45.3429047, 1.8176424],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.235541363917761, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_0fe0343cf35890c432cf634091185280 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6ffe4f7e02cfd6dce89c600997b7ec6 = $(`<div id="html_c6ffe4f7e02cfd6dce89c600997b7ec6" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Corrèze</b><br>Prix Moyen/m² : 1,442 €<br>Nombre d'annonces : 2,372</div>`)[0];
+                popup_0fe0343cf35890c432cf634091185280.setContent(html_c6ffe4f7e02cfd6dce89c600997b7ec6);
+            
+        
+
+        circle_marker_595096af125a36d9e38ae52a711f9769.bindPopup(popup_0fe0343cf35890c432cf634091185280)
+        ;
+
+        
+    
+    
+            var circle_marker_0f132a365d1fc0cbf93a6818e40e4cf4 = L.circleMarker(
+                [41.8734083, 9.0087052],
+                {"bubblingMouseEvents": true, "color": "#0000ffff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ffff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.1560392297416175, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_6a7c681cdef3877369eb6c0e19e48416 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e339b453842a9ac77accd58c7be40f07 = $(`<div id="html_e339b453842a9ac77accd58c7be40f07" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Corse-du-Sud</b><br>Prix Moyen/m² : 5,455 €<br>Nombre d'annonces : 2,250</div>`)[0];
+                popup_6a7c681cdef3877369eb6c0e19e48416.setContent(html_e339b453842a9ac77accd58c7be40f07);
+            
+        
+
+        circle_marker_0f132a365d1fc0cbf93a6818e40e4cf4.bindPopup(popup_6a7c681cdef3877369eb6c0e19e48416)
+        ;
+
+        
+    
+    
+            var circle_marker_44f330d634d7d008ae09d5735f06a351 = L.circleMarker(
+                [46.0593485, 2.048901],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.545436772995341, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_f37e31e24307f617580cd8416ba1efa4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f8ceae9a5becaa9457135df63132210c = $(`<div id="html_f8ceae9a5becaa9457135df63132210c" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Creuse</b><br>Prix Moyen/m² : 948 €<br>Nombre d'annonces : 1,313</div>`)[0];
+                popup_f37e31e24307f617580cd8416ba1efa4.setContent(html_f8ceae9a5becaa9457135df63132210c);
+            
+        
+
+        circle_marker_44f330d634d7d008ae09d5735f06a351.bindPopup(popup_f37e31e24307f617580cd8416ba1efa4)
+        ;
+
+        
+    
+    
+            var circle_marker_43344645f8fc49f92dc87857960ed801 = L.circleMarker(
+                [47.4655034, 4.7481223],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.519305333811214, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_946f24bee13dd474d580c40d90b60b30 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d36700117e5d310171cb22ea19604cc3 = $(`<div id="html_d36700117e5d310171cb22ea19604cc3" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Côte-d'Or</b><br>Prix Moyen/m² : 2,076 €<br>Nombre d'annonces : 4,342</div>`)[0];
+                popup_946f24bee13dd474d580c40d90b60b30.setContent(html_d36700117e5d310171cb22ea19604cc3);
+            
+        
+
+        circle_marker_43344645f8fc49f92dc87857960ed801.bindPopup(popup_946f24bee13dd474d580c40d90b60b30)
+        ;
+
+        
+    
+    
+            var circle_marker_433d852e492605add7add320914a16be = L.circleMarker(
+                [48.4614877, -2.7514328],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.465511061874817, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_9821c83de5a0bbe67bc780efab3717a5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f5d53bd9ce24b737cef069fbdabdcdb4 = $(`<div id="html_f5d53bd9ce24b737cef069fbdabdcdb4" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Côtes-d'Armor</b><br>Prix Moyen/m² : 2,453 €<br>Nombre d'annonces : 5,794</div>`)[0];
+                popup_9821c83de5a0bbe67bc780efab3717a5.setContent(html_f5d53bd9ce24b737cef069fbdabdcdb4);
+            
+        
+
+        circle_marker_433d852e492605add7add320914a16be.bindPopup(popup_9821c83de5a0bbe67bc780efab3717a5)
+        ;
+
+        
+    
+    
+            var circle_marker_d9cb9b377efc901a1849036e17ceea96 = L.circleMarker(
+                [46.53914, -0.2994785],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.080088625329902, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_78580573ad09c1a31de467a2e9a3cd64 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_809bf4e9c7811f4d5137bdfea43f8c66 = $(`<div id="html_809bf4e9c7811f4d5137bdfea43f8c66" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Deux-Sèvres</b><br>Prix Moyen/m² : 2,908 €<br>Nombre d'annonces : 3,668</div>`)[0];
+                popup_78580573ad09c1a31de467a2e9a3cd64.setContent(html_809bf4e9c7811f4d5137bdfea43f8c66);
+            
+        
+
+        circle_marker_d9cb9b377efc901a1849036e17ceea96.bindPopup(popup_78580573ad09c1a31de467a2e9a3cd64)
+        ;
+
+        
+    
+    
+            var circle_marker_562efa04682111b93aa4ad441eefc273 = L.circleMarker(
+                [45.1429199, 0.6321258],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.690332670815549, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_f5c326d2d3d4dc60cb2574bce2313b3e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_be85ae591cc9f7ebec3e0de3b43eba4e = $(`<div id="html_be85ae591cc9f7ebec3e0de3b43eba4e" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Dordogne</b><br>Prix Moyen/m² : 1,775 €<br>Nombre d'annonces : 6,139</div>`)[0];
+                popup_f5c326d2d3d4dc60cb2574bce2313b3e.setContent(html_be85ae591cc9f7ebec3e0de3b43eba4e);
+            
+        
+
+        circle_marker_562efa04682111b93aa4ad441eefc273.bindPopup(popup_f5c326d2d3d4dc60cb2574bce2313b3e)
+        ;
+
+        
+    
+    
+            var circle_marker_8e251eb02e65ee38156df2efd9a831e1 = L.circleMarker(
+                [47.0669916, 6.2356228],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.935420807402822, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_11c6298e9523ddb612c12d5d457e9662 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2485dbe6b79d40600a3acb3de4f57bb1 = $(`<div id="html_2485dbe6b79d40600a3acb3de4f57bb1" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Doubs</b><br>Prix Moyen/m² : 2,408 €<br>Nombre d'annonces : 3,446</div>`)[0];
+                popup_11c6298e9523ddb612c12d5d457e9662.setContent(html_2485dbe6b79d40600a3acb3de4f57bb1);
+            
+        
+
+        circle_marker_8e251eb02e65ee38156df2efd9a831e1.bindPopup(popup_11c6298e9523ddb612c12d5d457e9662)
+        ;
+
+        
+    
+    
+            var circle_marker_31d752dba3bbe39a4beb9e5120c52f3d = L.circleMarker(
+                [44.7295348, 5.2046372],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.511485451761103, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_37171552c4134a0bcbe81134fea37a28 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3cfa22a8ae169eb0d289388d178c0682 = $(`<div id="html_3cfa22a8ae169eb0d289388d178c0682" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Drôme</b><br>Prix Moyen/m² : 2,078 €<br>Nombre d'annonces : 4,330</div>`)[0];
+                popup_37171552c4134a0bcbe81134fea37a28.setContent(html_3cfa22a8ae169eb0d289388d178c0682);
+            
+        
+
+        circle_marker_31d752dba3bbe39a4beb9e5120c52f3d.bindPopup(popup_37171552c4134a0bcbe81134fea37a28)
+        ;
+
+        
+    
+    
+            var circle_marker_3f49f016de218a4fc4ef65b666739fff = L.circleMarker(
+                [48.5303402, 2.2392918],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.761591345997198, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_9af745c1ff202ecc013963f9ed4d7eb4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_101ce1986fe2f451c8fc93f0906dd75c = $(`<div id="html_101ce1986fe2f451c8fc93f0906dd75c" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Essonne</b><br>Prix Moyen/m² : 2,757 €<br>Nombre d'annonces : 10,852</div>`)[0];
+                popup_9af745c1ff202ecc013963f9ed4d7eb4.setContent(html_101ce1986fe2f451c8fc93f0906dd75c);
+            
+        
+
+        circle_marker_3f49f016de218a4fc4ef65b666739fff.bindPopup(popup_9af745c1ff202ecc013963f9ed4d7eb4)
+        ;
+
+        
+    
+    
+            var circle_marker_106c5270ff33ca68e252090727975d17 = L.circleMarker(
+                [49.0756358, 0.9651829],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.061777068195887, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_ffa703b48dfe80f1e3fbb0ecbd3ed6dc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bb94faedcd022c22ed940d68efa851e7 = $(`<div id="html_bb94faedcd022c22ed940d68efa851e7" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Eure</b><br>Prix Moyen/m² : 1,808 €<br>Nombre d'annonces : 6,709</div>`)[0];
+                popup_ffa703b48dfe80f1e3fbb0ecbd3ed6dc.setContent(html_bb94faedcd022c22ed940d68efa851e7);
+            
+        
+
+        circle_marker_106c5270ff33ca68e252090727975d17.bindPopup(popup_ffa703b48dfe80f1e3fbb0ecbd3ed6dc)
+        ;
+
+        
+    
+    
+            var circle_marker_9eaf60b3a09285def641e80d13c2612a = L.circleMarker(
+                [48.4474102, 1.399882],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.073213645694178, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_07ad5dedc1b79ca3bb9a4a3618727024 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_11cc4946a0dbe5cec9aceab1c6e38b22 = $(`<div id="html_11cc4946a0dbe5cec9aceab1c6e38b22" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Eure-et-Loir</b><br>Prix Moyen/m² : 1,799 €<br>Nombre d'annonces : 5,192</div>`)[0];
+                popup_07ad5dedc1b79ca3bb9a4a3618727024.setContent(html_11cc4946a0dbe5cec9aceab1c6e38b22);
+            
+        
+
+        circle_marker_9eaf60b3a09285def641e80d13c2612a.bindPopup(popup_07ad5dedc1b79ca3bb9a4a3618727024)
+        ;
+
+        
+    
+    
+            var circle_marker_662c891e53529aed32985f0d6f7f09b6 = L.circleMarker(
+                [48.2451153, -4.0440902],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.80271089244404, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_5166a85a73841c8d10edffbde2c1c07c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7d8b6db5370d637a46586912cb2f59ca = $(`<div id="html_7d8b6db5370d637a46586912cb2f59ca" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Finistère</b><br>Prix Moyen/m² : 2,729 €<br>Nombre d'annonces : 7,846</div>`)[0];
+                popup_5166a85a73841c8d10edffbde2c1c07c.setContent(html_7d8b6db5370d637a46586912cb2f59ca);
+            
+        
+
+        circle_marker_662c891e53529aed32985f0d6f7f09b6.bindPopup(popup_5166a85a73841c8d10edffbde2c1c07c)
+        ;
+
+        
+    
+    
+            var circle_marker_b1206e496043d91aad90c2be5d92cc70 = L.circleMarker(
+                [43.95995, 4.297637],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.665797790883321, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_6062e0fb70b5447cba753d7377448293 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e79aaeef17f08d0e4e767f91df8d1c7f = $(`<div id="html_e79aaeef17f08d0e4e767f91df8d1c7f" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Gard</b><br>Prix Moyen/m² : 2,621 €<br>Nombre d'annonces : 10,705</div>`)[0];
+                popup_6062e0fb70b5447cba753d7377448293.setContent(html_e79aaeef17f08d0e4e767f91df8d1c7f);
+            
+        
+
+        circle_marker_b1206e496043d91aad90c2be5d92cc70.bindPopup(popup_6062e0fb70b5447cba753d7377448293)
+        ;
+
+        
+    
+    
+            var circle_marker_7bad96f9249c397aa34477e77b12354a = L.circleMarker(
+                [43.6955276, 0.4101019],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.764035059137858, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_f3a9d1817e152ffc9bb266f018b25349 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_af15e5bd4ed45a3628b77c52ba035442 = $(`<div id="html_af15e5bd4ed45a3628b77c52ba035442" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Gers</b><br>Prix Moyen/m² : 1,573 €<br>Nombre d'annonces : 3,183</div>`)[0];
+                popup_f3a9d1817e152ffc9bb266f018b25349.setContent(html_af15e5bd4ed45a3628b77c52ba035442);
+            
+        
+
+        circle_marker_7bad96f9249c397aa34477e77b12354a.bindPopup(popup_f3a9d1817e152ffc9bb266f018b25349)
+        ;
+
+        
+    
+    
+            var circle_marker_7ef7bc0133c2695a3b182b03769ee420 = L.circleMarker(
+                [44.883746, -0.6051264],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.889544166042162, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_93bb63a26cd1274be50f13f9250913b6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4381b0f9a812bbf34781881a95fa74c0 = $(`<div id="html_4381b0f9a812bbf34781881a95fa74c0" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Gironde</b><br>Prix Moyen/m² : 3,448 €<br>Nombre d'annonces : 15,652</div>`)[0];
+                popup_93bb63a26cd1274be50f13f9250913b6.setContent(html_4381b0f9a812bbf34781881a95fa74c0);
+            
+        
+
+        circle_marker_7ef7bc0133c2695a3b182b03769ee420.bindPopup(popup_93bb63a26cd1274be50f13f9250913b6)
+        ;
+
+        
+    
+    
+            var circle_marker_03e65f728d4ee540afdde8a7fd10b0c5 = L.circleMarker(
+                [16.2528827, -61.5686855],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.991821706689257, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_805b9ce4d8df2aa7ff87596f307ea866 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aaf60dd26f9471e9e4a96dfb4be0a556 = $(`<div id="html_aaf60dd26f9471e9e4a96dfb4be0a556" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Guadeloupe</b><br>Prix Moyen/m² : 4,764 €<br>Nombre d'annonces : 1,998</div>`)[0];
+                popup_805b9ce4d8df2aa7ff87596f307ea866.setContent(html_aaf60dd26f9471e9e4a96dfb4be0a556);
+            
+        
+
+        circle_marker_03e65f728d4ee540afdde8a7fd10b0c5.bindPopup(popup_805b9ce4d8df2aa7ff87596f307ea866)
+        ;
+
+        
+    
+    
+            var circle_marker_4da33dd8be031133701db0f8386171e2 = L.circleMarker(
+                [4.0039882, -52.999998],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.009123195725131, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_52e582516769161c0bf899815c591ffd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9d693390214f432f4d79ae89b2bfb696 = $(`<div id="html_9d693390214f432f4d79ae89b2bfb696" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Guyane</b><br>Prix Moyen/m² : 2,672 €<br>Nombre d'annonces : 490</div>`)[0];
+                popup_52e582516769161c0bf899815c591ffd.setContent(html_9d693390214f432f4d79ae89b2bfb696);
+            
+        
+
+        circle_marker_4da33dd8be031133701db0f8386171e2.bindPopup(popup_52e582516769161c0bf899815c591ffd)
+        ;
+
+        
+    
+    
+            var circle_marker_9f137f2ab8f264fa5a13c4f4838c8cec = L.circleMarker(
+                [47.8655703, 7.2316245],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.295428627284872, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_6692a5d5e9efc748ef48b56ca2c6dae8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_40b7a28fe92ea74b0d783344b003635d = $(`<div id="html_40b7a28fe92ea74b0d783344b003635d" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Haut-Rhin</b><br>Prix Moyen/m² : 2,266 €<br>Nombre d'annonces : 5,533</div>`)[0];
+                popup_6692a5d5e9efc748ef48b56ca2c6dae8.setContent(html_40b7a28fe92ea74b0d783344b003635d);
+            
+        
+
+        circle_marker_9f137f2ab8f264fa5a13c4f4838c8cec.bindPopup(popup_6692a5d5e9efc748ef48b56ca2c6dae8)
+        ;
+
+        
+    
+    
+            var circle_marker_e6dd86c4a384c1ed62dd3f9117ef2fe3 = L.circleMarker(
+                [42.4219698, 9.1009065],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.1560392297416175, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_1104dcbefb9b0c8bb3f17d6d12725a62 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4b57ad886fa0d9d5802e1fa996d04df1 = $(`<div id="html_4b57ad886fa0d9d5802e1fa996d04df1" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Haute-Corse</b><br>Prix Moyen/m² : 3,967 €<br>Nombre d'annonces : 2,250</div>`)[0];
+                popup_1104dcbefb9b0c8bb3f17d6d12725a62.setContent(html_4b57ad886fa0d9d5802e1fa996d04df1);
+            
+        
+
+        circle_marker_e6dd86c4a384c1ed62dd3f9117ef2fe3.bindPopup(popup_1104dcbefb9b0c8bb3f17d6d12725a62)
+        ;
+
+        
+    
+    
+            var circle_marker_01e93aabc659109f61ae97097f2033a6 = L.circleMarker(
+                [43.3054546, 0.9716792],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.973021406927113, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_86126ef5156ed7d10ac1017a324c695b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_94baa1f6b23f649f1a32c3eac1509943 = $(`<div id="html_94baa1f6b23f649f1a32c3eac1509943" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Haute-Garonne</b><br>Prix Moyen/m² : 2,764 €<br>Nombre d'annonces : 12,711</div>`)[0];
+                popup_86126ef5156ed7d10ac1017a324c695b.setContent(html_94baa1f6b23f649f1a32c3eac1509943);
+            
+        
+
+        circle_marker_01e93aabc659109f61ae97097f2033a6.bindPopup(popup_86126ef5156ed7d10ac1017a324c695b)
+        ;
+
+        
+    
+    
+            var circle_marker_6f6545469d72dae87ba0f308325ef710 = L.circleMarker(
+                [45.0857249, 3.8338261],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.797627969111466, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_f4e29695c5625243dfa5adf578a5df40 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4baf9e88d50ca7399c96d5fadb976736 = $(`<div id="html_4baf9e88d50ca7399c96d5fadb976736" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Haute-Loire</b><br>Prix Moyen/m² : 1,929 €<br>Nombre d'annonces : 1,700</div>`)[0];
+                popup_f4e29695c5625243dfa5adf578a5df40.setContent(html_4baf9e88d50ca7399c96d5fadb976736);
+            
+        
+
+        circle_marker_6f6545469d72dae87ba0f308325ef710.bindPopup(popup_f4e29695c5625243dfa5adf578a5df40)
+        ;
+
+        
+    
+    
+            var circle_marker_07da92c562d99dfe034610c73d1bca16 = L.circleMarker(
+                [48.1329414, 5.2529108],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.480922746081913, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_d84c27683404b82aeaeded1985c04e56 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9a70662e54ca125e7442a93f3c556d1f = $(`<div id="html_9a70662e54ca125e7442a93f3c556d1f" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Haute-Marne</b><br>Prix Moyen/m² : 1,140 €<br>Nombre d'annonces : 1,214</div>`)[0];
+                popup_d84c27683404b82aeaeded1985c04e56.setContent(html_9a70662e54ca125e7442a93f3c556d1f);
+            
+        
+
+        circle_marker_07da92c562d99dfe034610c73d1bca16.bindPopup(popup_d84c27683404b82aeaeded1985c04e56)
+        ;
+
+        
+    
+    
+            var circle_marker_3723c29c8dbde99ed8648a092751c302 = L.circleMarker(
+                [46.0690407, 6.3445321],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.472255710143038, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_768e92fbf7d754cbb11ba037f15783d7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_02e3322d914c2b6447a3a2e896e14233 = $(`<div id="html_02e3322d914c2b6447a3a2e896e14233" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Haute-Savoie</b><br>Prix Moyen/m² : 5,250 €<br>Nombre d'annonces : 10,408</div>`)[0];
+                popup_768e92fbf7d754cbb11ba037f15783d7.setContent(html_02e3322d914c2b6447a3a2e896e14233);
+            
+        
+
+        circle_marker_3723c29c8dbde99ed8648a092751c302.bindPopup(popup_768e92fbf7d754cbb11ba037f15783d7)
+        ;
+
+        
+    
+    
+            var circle_marker_e1b743ce433161b321ed2aebb59002d2 = L.circleMarker(
+                [47.6384234, 6.0951141],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.742888794760679, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_3db27c1dcfbff67eab0ece27ecbde30e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6157ffc7b98e43a25d9030c0c8bfbebd = $(`<div id="html_6157ffc7b98e43a25d9030c0c8bfbebd" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Haute-Saône</b><br>Prix Moyen/m² : 1,343 €<br>Nombre d'annonces : 1,616</div>`)[0];
+                popup_3db27c1dcfbff67eab0ece27ecbde30e.setContent(html_6157ffc7b98e43a25d9030c0c8bfbebd);
+            
+        
+
+        circle_marker_e1b743ce433161b321ed2aebb59002d2.bindPopup(popup_3db27c1dcfbff67eab0ece27ecbde30e)
+        ;
+
+        
+    
+    
+            var circle_marker_3a8eb7a0743030d1282b16e2970fc86d = L.circleMarker(
+                [45.9190193, 1.2031768],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.1041999283177475, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_4f00a51ee3eda0babde15515e8747b33 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3114b544c837f9134e83af8b92f1dd0c = $(`<div id="html_3114b544c837f9134e83af8b92f1dd0c" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Haute-Vienne</b><br>Prix Moyen/m² : 2,911 €<br>Nombre d'annonces : 3,705</div>`)[0];
+                popup_4f00a51ee3eda0babde15515e8747b33.setContent(html_3114b544c837f9134e83af8b92f1dd0c);
+            
+        
+
+        circle_marker_3a8eb7a0743030d1282b16e2970fc86d.bindPopup(popup_4f00a51ee3eda0babde15515e8747b33)
+        ;
+
+        
+    
+    
+            var circle_marker_da6e3dfbf4d7953375e530ab05e37aff = L.circleMarker(
+                [44.6564666, 6.3520246],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.126063015216188, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_dc985c3e78776076c8ea1e413ac7239d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_86b3944dceb4f12b4879bcadc976aa4a = $(`<div id="html_86b3944dceb4f12b4879bcadc976aa4a" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Hautes-Alpes</b><br>Prix Moyen/m² : 2,796 €<br>Nombre d'annonces : 2,204</div>`)[0];
+                popup_dc985c3e78776076c8ea1e413ac7239d.setContent(html_86b3944dceb4f12b4879bcadc976aa4a);
+            
+        
+
+        circle_marker_da6e3dfbf4d7953375e530ab05e37aff.bindPopup(popup_dc985c3e78776076c8ea1e413ac7239d)
+        ;
+
+        
+    
+    
+            var circle_marker_fa77b3714f139ac3526b49b7edc2d141 = L.circleMarker(
+                [43.1437925, 0.1586661],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.595255938222932, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_0e876c2f9ce88665a35dcd4716909cc8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b9730658bd718ad2b4b0c298dfee291f = $(`<div id="html_b9730658bd718ad2b4b0c298dfee291f" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Hautes-Pyrénées</b><br>Prix Moyen/m² : 1,807 €<br>Nombre d'annonces : 2,924</div>`)[0];
+                popup_0e876c2f9ce88665a35dcd4716909cc8.setContent(html_b9730658bd718ad2b4b0c298dfee291f);
+            
+        
+
+        circle_marker_fa77b3714f139ac3526b49b7edc2d141.bindPopup(popup_0e876c2f9ce88665a35dcd4716909cc8)
+        ;
+
+        
+    
+    
+            var circle_marker_6a884209c2a2b83eb05152fb295c0a10 = L.circleMarker(
+                [48.8401859, 2.19863],
+                {"bubblingMouseEvents": true, "color": "#0000ffff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ffff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.386595418852433, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_c40171c10cc39d74f840fe542c0a007e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4b06ef174f31ab1eb501efc130341698 = $(`<div id="html_4b06ef174f31ab1eb501efc130341698" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Hauts-de-Seine</b><br>Prix Moyen/m² : 7,134 €<br>Nombre d'annonces : 8,742</div>`)[0];
+                popup_c40171c10cc39d74f840fe542c0a007e.setContent(html_4b06ef174f31ab1eb501efc130341698);
+            
+        
+
+        circle_marker_6a884209c2a2b83eb05152fb295c0a10.bindPopup(popup_c40171c10cc39d74f840fe542c0a007e)
+        ;
+
+        
+    
+    
+            var circle_marker_501ecac3c4ddc704c8c16fe83f436af3 = L.circleMarker(
+                [43.591422, 3.3553309],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.440194193737577, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_115827120198f0c32cea01e988275870 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_df7fa1f8177265d02b7aaf1583d8e808 = $(`<div id="html_df7fa1f8177265d02b7aaf1583d8e808" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Hérault</b><br>Prix Moyen/m² : 3,220 €<br>Nombre d'annonces : 16,497</div>`)[0];
+                popup_115827120198f0c32cea01e988275870.setContent(html_df7fa1f8177265d02b7aaf1583d8e808);
+            
+        
+
+        circle_marker_501ecac3c4ddc704c8c16fe83f436af3.bindPopup(popup_115827120198f0c32cea01e988275870)
+        ;
+
+        
+    
+    
+            var circle_marker_bca785c6e396b5833cf4824297179483 = L.circleMarker(
+                [48.1727681, -1.6498092],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.879899644847024, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_8289bceaed82cfe1173ea2dd58604992 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1601f01728ebb87dd042ef22c92a3c9a = $(`<div id="html_1601f01728ebb87dd042ef22c92a3c9a" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Ille-et-Vilaine</b><br>Prix Moyen/m² : 3,044 €<br>Nombre d'annonces : 9,499</div>`)[0];
+                popup_8289bceaed82cfe1173ea2dd58604992.setContent(html_1601f01728ebb87dd042ef22c92a3c9a);
+            
+        
+
+        circle_marker_bca785c6e396b5833cf4824297179483.bindPopup(popup_8289bceaed82cfe1173ea2dd58604992)
+        ;
+
+        
+    
+    
+            var circle_marker_6a6623ce84803dbc81ddbf3e1ef1aeab = L.circleMarker(
+                [46.8121057, 1.5382052],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.955328923788732, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_760bd01dce1a089354ba05a2e474496c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_80df2b8131941dd64c8da83cbcba4092 = $(`<div id="html_80df2b8131941dd64c8da83cbcba4092" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Indre</b><br>Prix Moyen/m² : 1,116 €<br>Nombre d'annonces : 1,942</div>`)[0];
+                popup_760bd01dce1a089354ba05a2e474496c.setContent(html_80df2b8131941dd64c8da83cbcba4092);
+            
+        
+
+        circle_marker_6a6623ce84803dbc81ddbf3e1ef1aeab.bindPopup(popup_760bd01dce1a089354ba05a2e474496c)
+        ;
+
+        
+    
+    
+            var circle_marker_4ba9e9abe32d24a7116778fae0de4741 = L.circleMarker(
+                [47.2232046, 0.6866703],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.249160991821707, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_84a9bab6847f92bc3d86944f6b4df060 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cede4cffe56a510acaf6823f01de08f0 = $(`<div id="html_cede4cffe56a510acaf6823f01de08f0" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Indre-et-Loire</b><br>Prix Moyen/m² : 2,029 €<br>Nombre d'annonces : 5,462</div>`)[0];
+                popup_84a9bab6847f92bc3d86944f6b4df060.setContent(html_cede4cffe56a510acaf6823f01de08f0);
+            
+        
+
+        circle_marker_4ba9e9abe32d24a7116778fae0de4741.bindPopup(popup_84a9bab6847f92bc3d86944f6b4df060)
+        ;
+
+        
+    
+    
+            var circle_marker_c1a0a70e1c0402ca22ebcd708e894a3a = L.circleMarker(
+                [45.2897932, 5.6343825],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.25460232641491, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_d6a8b0b1f43d7af581c14d3abba00c0d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac580dae12b7ab16cfa860a257f46c6a = $(`<div id="html_ac580dae12b7ab16cfa860a257f46c6a" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Isère</b><br>Prix Moyen/m² : 2,691 €<br>Nombre d'annonces : 10,074</div>`)[0];
+                popup_d6a8b0b1f43d7af581c14d3abba00c0d.setContent(html_ac580dae12b7ab16cfa860a257f46c6a);
+            
+        
+
+        circle_marker_c1a0a70e1c0402ca22ebcd708e894a3a.bindPopup(popup_d6a8b0b1f43d7af581c14d3abba00c0d)
+        ;
+
+        
+    
+    
+            var circle_marker_61c567c365c4d0de54b0fd7ce8ef9606 = L.circleMarker(
+                [46.7833625, 5.7832857],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.868006907562478, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_503670de423a80ade7bdd7b04937e8cb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c840bedcc9848f2e7abe524cef8c74ae = $(`<div id="html_c840bedcc9848f2e7abe524cef8c74ae" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Jura</b><br>Prix Moyen/m² : 2,292 €<br>Nombre d'annonces : 1,808</div>`)[0];
+                popup_503670de423a80ade7bdd7b04937e8cb.setContent(html_c840bedcc9848f2e7abe524cef8c74ae);
+            
+        
+
+        circle_marker_61c567c365c4d0de54b0fd7ce8ef9606.bindPopup(popup_503670de423a80ade7bdd7b04937e8cb)
+        ;
+
+        
+    
+    
+            var circle_marker_06225aa8aa18d9d2012c3309cf68722a = L.circleMarker(
+                [-21.1307379, 55.5364801],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.641523573686097, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_84f8ac583d8b7e0e84051e99a598da69 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e310cdf32c6aca940ff1d90cc2b5a7a3 = $(`<div id="html_e310cdf32c6aca940ff1d90cc2b5a7a3" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : La Réunion</b><br>Prix Moyen/m² : 3,436 €<br>Nombre d'annonces : 2,995</div>`)[0];
+                popup_84f8ac583d8b7e0e84051e99a598da69.setContent(html_e310cdf32c6aca940ff1d90cc2b5a7a3);
+            
+        
+
+        circle_marker_06225aa8aa18d9d2012c3309cf68722a.bindPopup(popup_84f8ac583d8b7e0e84051e99a598da69)
+        ;
+
+        
+    
+    
+            var circle_marker_dfd5f7f2802eb7b8993249189d133971 = L.circleMarker(
+                [44.0099695, -0.6433872],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.65840148577759, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_c968aed6671c20557a37b2416d67b983 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_60952a48dd836201bd9f0abfb5acaed9 = $(`<div id="html_60952a48dd836201bd9f0abfb5acaed9" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Landes</b><br>Prix Moyen/m² : 3,201 €<br>Nombre d'annonces : 6,090</div>`)[0];
+                popup_c968aed6671c20557a37b2416d67b983.setContent(html_60952a48dd836201bd9f0abfb5acaed9);
+            
+        
+
+        circle_marker_dfd5f7f2802eb7b8993249189d133971.bindPopup(popup_c968aed6671c20557a37b2416d67b983)
+        ;
+
+        
+    
+    
+            var circle_marker_9619076de18d667133b5cedab8f392f1 = L.circleMarker(
+                [47.6597752, 1.2971835],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.949105600990518, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_9ecb79ac22b03ce4ddc8ca0d3636f5f1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_351a84b2b2a2af968143c79466fe6ebd = $(`<div id="html_351a84b2b2a2af968143c79466fe6ebd" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Loir-et-Cher</b><br>Prix Moyen/m² : 1,904 €<br>Nombre d'annonces : 3,467</div>`)[0];
+                popup_9ecb79ac22b03ce4ddc8ca0d3636f5f1.setContent(html_351a84b2b2a2af968143c79466fe6ebd);
+            
+        
+
+        circle_marker_9619076de18d667133b5cedab8f392f1.bindPopup(popup_9ecb79ac22b03ce4ddc8ca0d3636f5f1)
+        ;
+
+        
+    
+    
+            var circle_marker_52c91d215e6b3ff31effd5990c18a458 = L.circleMarker(
+                [45.7538536, 4.0454737],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.614740477664462, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_31e579d37ccee31d277e9ce33e7d91f1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_24c4b11c511f39f5e01bb5599dd3c9e3 = $(`<div id="html_24c4b11c511f39f5e01bb5599dd3c9e3" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Loire</b><br>Prix Moyen/m² : 1,704 €<br>Nombre d'annonces : 6,023</div>`)[0];
+                popup_31e579d37ccee31d277e9ce33e7d91f1.setContent(html_24c4b11c511f39f5e01bb5599dd3c9e3);
+            
+        
+
+        circle_marker_52c91d215e6b3ff31effd5990c18a458.bindPopup(popup_31e579d37ccee31d277e9ce33e7d91f1)
+        ;
+
+        
+    
+    
+            var circle_marker_13c1c1b3e692aabd7705e05b4a470c3e = L.circleMarker(
+                [47.3481615, -1.8727461],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.740673161513147, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_8fa91cdd58dca879dcb691f08ac0dd31 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26fbefbd563eedadd41ff0681539fe27 = $(`<div id="html_26fbefbd563eedadd41ff0681539fe27" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Loire-Atlantique</b><br>Prix Moyen/m² : 2,909 €<br>Nombre d'annonces : 13,889</div>`)[0];
+                popup_8fa91cdd58dca879dcb691f08ac0dd31.setContent(html_26fbefbd563eedadd41ff0681539fe27);
+            
+        
+
+        circle_marker_13c1c1b3e692aabd7705e05b4a470c3e.bindPopup(popup_8fa91cdd58dca879dcb691f08ac0dd31)
+        ;
+
+        
+    
+    
+            var circle_marker_ff3477390fd58e9b79d81e49babbd897 = L.circleMarker(
+                [47.9138725, 2.3075036],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.659053142615099, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_6531c716a8c8d307974fa3100bbf7d59 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_776c49d51f81e4a113f6092e4c298a44 = $(`<div id="html_776c49d51f81e4a113f6092e4c298a44" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Loiret</b><br>Prix Moyen/m² : 1,819 €<br>Nombre d'annonces : 6,091</div>`)[0];
+                popup_6531c716a8c8d307974fa3100bbf7d59.setContent(html_776c49d51f81e4a113f6092e4c298a44);
+            
+        
+
+        circle_marker_ff3477390fd58e9b79d81e49babbd897.bindPopup(popup_6531c716a8c8d307974fa3100bbf7d59)
+        ;
+
+        
+    
+    
+            var circle_marker_4220dde1c2c1f6acc611463498624185 = L.circleMarker(
+                [44.6249918, 1.6657742],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.315043498093903, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_be0ba99b86d759a6179ec106a923d049 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8fdd32930749f097ac746f60cc86e47d = $(`<div id="html_8fdd32930749f097ac746f60cc86e47d" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Lot</b><br>Prix Moyen/m² : 1,699 €<br>Nombre d'annonces : 2,494</div>`)[0];
+                popup_be0ba99b86d759a6179ec106a923d049.setContent(html_8fdd32930749f097ac746f60cc86e47d);
+            
+        
+
+        circle_marker_4220dde1c2c1f6acc611463498624185.bindPopup(popup_be0ba99b86d759a6179ec106a923d049)
+        ;
+
+        
+    
+    
+            var circle_marker_18d5569887bf1ed39f05cb29830c758b = L.circleMarker(
+                [44.3691703, 0.4539158],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.001531393568147, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_ae63184c5bcf95b02d42eaa3465cea3c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1f8215cff7dbd95d06059e831e6a293c = $(`<div id="html_1f8215cff7dbd95d06059e831e6a293c" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Lot-et-Garonne</b><br>Prix Moyen/m² : 1,591 €<br>Nombre d'annonces : 5,082</div>`)[0];
+                popup_ae63184c5bcf95b02d42eaa3465cea3c.setContent(html_1f8215cff7dbd95d06059e831e6a293c);
+            
+        
+
+        circle_marker_18d5569887bf1ed39f05cb29830c758b.bindPopup(popup_ae63184c5bcf95b02d42eaa3465cea3c)
+        ;
+
+        
+    
+    
+            var circle_marker_16c1332d4ed92fca716b0d62b2e1803b = L.circleMarker(
+                [44.5425706, 3.5211146],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_8ed238ad7b4285b0f31eb7d225143aff = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_707ac9a2cdd76f2c6b9f10fc54a6fb12 = $(`<div id="html_707ac9a2cdd76f2c6b9f10fc54a6fb12" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Lozère</b><br>Prix Moyen/m² : 1,423 €<br>Nombre d'annonces : 476</div>`)[0];
+                popup_8ed238ad7b4285b0f31eb7d225143aff.setContent(html_707ac9a2cdd76f2c6b9f10fc54a6fb12);
+            
+        
+
+        circle_marker_16c1332d4ed92fca716b0d62b2e1803b.bindPopup(popup_8ed238ad7b4285b0f31eb7d225143aff)
+        ;
+
+        
+    
+    
+            var circle_marker_ca1637fb84e2abfc4fbaf92f1c42f9cb = L.circleMarker(
+                [47.3886305, -0.3909097],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.43162490632433, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_9bf12e1768e3eebd171e7f19167769fc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6917cdfd1a60cb816d643524cf15dfb5 = $(`<div id="html_6917cdfd1a60cb816d643524cf15dfb5" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Maine-et-Loire</b><br>Prix Moyen/m² : 2,807 €<br>Nombre d'annonces : 5,742</div>`)[0];
+                popup_9bf12e1768e3eebd171e7f19167769fc.setContent(html_6917cdfd1a60cb816d643524cf15dfb5);
+            
+        
+
+        circle_marker_ca1637fb84e2abfc4fbaf92f1c42f9cb.bindPopup(popup_9bf12e1768e3eebd171e7f19167769fc)
+        ;
+
+        
+    
+    
+            var circle_marker_2918f2898a62825c28eabd33a6867491 = L.circleMarker(
+                [49.0918952, -1.2454952],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.704375875663875, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_46ee7f91ba6e1be0809abd2636de0efd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1dbcc955983404eb506352b06ab62a5c = $(`<div id="html_1dbcc955983404eb506352b06ab62a5c" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Manche</b><br>Prix Moyen/m² : 2,979 €<br>Nombre d'annonces : 4,626</div>`)[0];
+                popup_46ee7f91ba6e1be0809abd2636de0efd.setContent(html_1dbcc955983404eb506352b06ab62a5c);
+            
+        
+
+        circle_marker_2918f2898a62825c28eabd33a6867491.bindPopup(popup_46ee7f91ba6e1be0809abd2636de0efd)
+        ;
+
+        
+    
+    
+            var circle_marker_53324351950807fcaddaef3624827760 = L.circleMarker(
+                [48.961264, 4.3122436],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.347267928708742, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_c2660fc1c53f73a03f716c8a1723a79f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cdbb1f3503c59261e31793149368dc58 = $(`<div id="html_cdbb1f3503c59261e31793149368dc58" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Marne</b><br>Prix Moyen/m² : 2,149 €<br>Nombre d'annonces : 4,078</div>`)[0];
+                popup_c2660fc1c53f73a03f716c8a1723a79f.setContent(html_cdbb1f3503c59261e31793149368dc58);
+            
+        
+
+        circle_marker_53324351950807fcaddaef3624827760.bindPopup(popup_c2660fc1c53f73a03f716c8a1723a79f)
+        ;
+
+        
+    
+    
+            var circle_marker_c52f421676de8b3d1b311872a3a1528d = L.circleMarker(
+                [14.6113732, -60.9620777],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.852367143462253, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_a421a6bf5f2b100e56bb6e06ca589c3d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8ed5d4c1194f833dfb8e0ea81ae6d9d9 = $(`<div id="html_8ed5d4c1194f833dfb8e0ea81ae6d9d9" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Martinique</b><br>Prix Moyen/m² : 3,519 €<br>Nombre d'annonces : 1,784</div>`)[0];
+                popup_a421a6bf5f2b100e56bb6e06ca589c3d.setContent(html_8ed5d4c1194f833dfb8e0ea81ae6d9d9);
+            
+        
+
+        circle_marker_c52f421676de8b3d1b311872a3a1528d.bindPopup(popup_a421a6bf5f2b100e56bb6e06ca589c3d)
+        ;
+
+        
+    
+    
+            var circle_marker_33d8740c7859f435cf533a837afa0c64 = L.circleMarker(
+                [48.1507819, -0.6491274],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.000944902414389, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_a9ecf89379aeb7b3d70730442b931653 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_af220522be04a601aee2c9f99ac0fb74 = $(`<div id="html_af220522be04a601aee2c9f99ac0fb74" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Mayenne</b><br>Prix Moyen/m² : 2,575 €<br>Nombre d'annonces : 2,012</div>`)[0];
+                popup_a9ecf89379aeb7b3d70730442b931653.setContent(html_af220522be04a601aee2c9f99ac0fb74);
+            
+        
+
+        circle_marker_33d8740c7859f435cf533a837afa0c64.bindPopup(popup_a9ecf89379aeb7b3d70730442b931653)
+        ;
+
+        
+    
+    
+            var circle_marker_4b62a54cac39da396005e87fbe7a1da9 = L.circleMarker(
+                [48.9559683, 5.9870383],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.01000293245577, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_bfb75666dc17da1b831e63e1597a891d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_52ec3141dbfc78bb4ddec19b4cf1444c = $(`<div id="html_52ec3141dbfc78bb4ddec19b4cf1444c" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Meurthe-et-Moselle</b><br>Prix Moyen/m² : 2,000 €<br>Nombre d'annonces : 5,095</div>`)[0];
+                popup_bfb75666dc17da1b831e63e1597a891d.setContent(html_52ec3141dbfc78bb4ddec19b4cf1444c);
+            
+        
+
+        circle_marker_4b62a54cac39da396005e87fbe7a1da9.bindPopup(popup_bfb75666dc17da1b831e63e1597a891d)
+        ;
+
+        
+    
+    
+            var circle_marker_55bae1ba96b7aa2a0776a845c1fa6210 = L.circleMarker(
+                [49.0129685, 5.4286691],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.450294874718973, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_b17dc76d58f02e80d5b1d6f5799dd534 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_62d62b59131b1ba73df3e7dcd22beead = $(`<div id="html_62d62b59131b1ba73df3e7dcd22beead" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Meuse</b><br>Prix Moyen/m² : 1,228 €<br>Nombre d'annonces : 1,167</div>`)[0];
+                popup_b17dc76d58f02e80d5b1d6f5799dd534.setContent(html_62d62b59131b1ba73df3e7dcd22beead);
+            
+        
+
+        circle_marker_55bae1ba96b7aa2a0776a845c1fa6210.bindPopup(popup_b17dc76d58f02e80d5b1d6f5799dd534)
+        ;
+
+        
+    
+    
+            var circle_marker_513d80090484f5ac570009e5cee5aef1 = L.circleMarker(
+                [47.8259812, -2.7633493],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.051643804372617, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_e15ff12d0a1be27e947dd301c0478242 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1772e69b3e75fd1ed88a6555bd7694e0 = $(`<div id="html_1772e69b3e75fd1ed88a6555bd7694e0" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Morbihan</b><br>Prix Moyen/m² : 3,209 €<br>Nombre d'annonces : 8,228</div>`)[0];
+                popup_e15ff12d0a1be27e947dd301c0478242.setContent(html_1772e69b3e75fd1ed88a6555bd7694e0);
+            
+        
+
+        circle_marker_513d80090484f5ac570009e5cee5aef1.bindPopup(popup_e15ff12d0a1be27e947dd301c0478242)
+        ;
+
+        
+    
+    
+            var circle_marker_662c446ac17f1651dc78e023c8218666 = L.circleMarker(
+                [49.0207259, 6.5380352],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.593887458864163, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_add916f2e876324b0cbb30e35cb1ea24 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26ad342a79a2bb57a1e952cf0c23161d = $(`<div id="html_26ad342a79a2bb57a1e952cf0c23161d" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Moselle</b><br>Prix Moyen/m² : 1,901 €<br>Nombre d'annonces : 5,991</div>`)[0];
+                popup_add916f2e876324b0cbb30e35cb1ea24.setContent(html_26ad342a79a2bb57a1e952cf0c23161d);
+            
+        
+
+        circle_marker_662c446ac17f1651dc78e023c8218666.bindPopup(popup_add916f2e876324b0cbb30e35cb1ea24)
+        ;
+
+        
+    
+    
+            var circle_marker_41779de3720d8ad4986752f7efa1b12b = L.circleMarker(
+                [47.1196971, 3.5448898],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.208823433579877, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_40321044c15d2544396df47ba0f4aed9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2e1c766d7d7774003692ebc473580ff4 = $(`<div id="html_2e1c766d7d7774003692ebc473580ff4" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Nièvre</b><br>Prix Moyen/m² : 1,331 €<br>Nombre d'annonces : 2,331</div>`)[0];
+                popup_40321044c15d2544396df47ba0f4aed9.setContent(html_2e1c766d7d7774003692ebc473580ff4);
+            
+        
+
+        circle_marker_41779de3720d8ad4986752f7efa1b12b.bindPopup(popup_40321044c15d2544396df47ba0f4aed9)
+        ;
+
+        
+    
+    
+            var circle_marker_e1988cbb8fec412d0bdec3fc8d22e33d = L.circleMarker(
+                [50.5289615, 3.0883508],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.43931445700694, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_50dbfdc948867e8ec95e4cf1f14b4d94 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d72addf588fa61ae7b26875bb2bfabf5 = $(`<div id="html_d72addf588fa61ae7b26875bb2bfabf5" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Nord</b><br>Prix Moyen/m² : 2,456 €<br>Nombre d'annonces : 11,892</div>`)[0];
+                popup_50dbfdc948867e8ec95e4cf1f14b4d94.setContent(html_d72addf588fa61ae7b26875bb2bfabf5);
+            
+        
+
+        circle_marker_e1988cbb8fec412d0bdec3fc8d22e33d.bindPopup(popup_50dbfdc948867e8ec95e4cf1f14b4d94)
+        ;
+
+        
+    
+    
+            var circle_marker_7f88af320e44b231ae53a6fd9f09ae69 = L.circleMarker(
+                [49.4120546, 2.4064878],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.590270763415985, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_a6bb5c954888da0efc6b86d4b7dff5e5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_21fe2e26978ef06f9f4371c364a7885a = $(`<div id="html_21fe2e26978ef06f9f4371c364a7885a" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Oise</b><br>Prix Moyen/m² : 2,240 €<br>Nombre d'annonces : 7,520</div>`)[0];
+                popup_a6bb5c954888da0efc6b86d4b7dff5e5.setContent(html_21fe2e26978ef06f9f4371c364a7885a);
+            
+        
+
+        circle_marker_7f88af320e44b231ae53a6fd9f09ae69.bindPopup(popup_a6bb5c954888da0efc6b86d4b7dff5e5)
+        ;
+
+        
+    
+    
+            var circle_marker_a64289db6000d78085a33699b05c0a34 = L.circleMarker(
+                [48.575888, 0.0448794],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.625232152748363, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_763218c4ebe376a9cf4aeeb1c8424534 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4d4edf6831b69375d9ad2b47b794c62d = $(`<div id="html_4d4edf6831b69375d9ad2b47b794c62d" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Orne</b><br>Prix Moyen/m² : 1,724 €<br>Nombre d'annonces : 2,970</div>`)[0];
+                popup_763218c4ebe376a9cf4aeeb1c8424534.setContent(html_4d4edf6831b69375d9ad2b47b794c62d);
+            
+        
+
+        circle_marker_a64289db6000d78085a33699b05c0a34.bindPopup(popup_763218c4ebe376a9cf4aeeb1c8424534)
+        ;
+
+        
+    
+    
+            var circle_marker_fc6cab4dd97af72833860b4abde8164e = L.circleMarker(
+                [48.8534951, 2.3483915],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.0, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_3167e3f403355fe347963ff45d15cb9b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d7697087f6d9d9441f35ccc4c99c6da4 = $(`<div id="html_d7697087f6d9d9441f35ccc4c99c6da4" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Paris</b><br>Prix Moyen/m² : 11,990 €<br>Nombre d'annonces : 31,167</div>`)[0];
+                popup_3167e3f403355fe347963ff45d15cb9b.setContent(html_d7697087f6d9d9441f35ccc4c99c6da4);
+            
+        
+
+        circle_marker_fc6cab4dd97af72833860b4abde8164e.bindPopup(popup_3167e3f403355fe347963ff45d15cb9b)
+        ;
+
+        
+    
+    
+            var circle_marker_cdfaa0478be1d14ee6de85f8974c64fb = L.circleMarker(
+                [50.5144061, 2.2580078],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.331204587664136, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_b8d8df073b6d31beeeb0027ff355496c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_123aaf42dfdaf24a0f2a809b5a271b34 = $(`<div id="html_123aaf42dfdaf24a0f2a809b5a271b34" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Pas-de-Calais</b><br>Prix Moyen/m² : 2,241 €<br>Nombre d'annonces : 8,657</div>`)[0];
+                popup_b8d8df073b6d31beeeb0027ff355496c.setContent(html_123aaf42dfdaf24a0f2a809b5a271b34);
+            
+        
+
+        circle_marker_cdfaa0478be1d14ee6de85f8974c64fb.bindPopup(popup_b8d8df073b6d31beeeb0027ff355496c)
+        ;
+
+        
+    
+    
+            var circle_marker_cbbd8816fc5d5499ed45ad8e4afa95a4 = L.circleMarker(
+                [45.7715343, 3.0839934],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.964386953830113, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_1a063fe13331731fdec210cea0f86c29 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_27347b0e1ab5cefb2eca62d95a29a69c = $(`<div id="html_27347b0e1ab5cefb2eca62d95a29a69c" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Puy-de-Dôme</b><br>Prix Moyen/m² : 1,790 €<br>Nombre d'annonces : 5,025</div>`)[0];
+                popup_1a063fe13331731fdec210cea0f86c29.setContent(html_27347b0e1ab5cefb2eca62d95a29a69c);
+            
+        
+
+        circle_marker_cbbd8816fc5d5499ed45ad8e4afa95a4.bindPopup(popup_1a063fe13331731fdec210cea0f86c29)
+        ;
+
+        
+    
+    
+            var circle_marker_0b4f5c84dcc0269d9248e2a5594e52f8 = L.circleMarker(
+                [43.1871866, -0.7282474],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.80140757876902, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_d8c546133b72f2a37f5cf09e8b158eaf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f1a213934ca7b84632835c951e83598e = $(`<div id="html_f1a213934ca7b84632835c951e83598e" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Pyrénées-Atlantiques</b><br>Prix Moyen/m² : 3,674 €<br>Nombre d'annonces : 7,844</div>`)[0];
+                popup_d8c546133b72f2a37f5cf09e8b158eaf.setContent(html_f1a213934ca7b84632835c951e83598e);
+            
+        
+
+        circle_marker_0b4f5c84dcc0269d9248e2a5594e52f8.bindPopup(popup_d8c546133b72f2a37f5cf09e8b158eaf)
+        ;
+
+        
+    
+    
+            var circle_marker_c3860b695b1f01436d11782edd1593ff = L.circleMarker(
+                [42.625894, 2.506509],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.359160665993288, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_9bacec693503e0423aca67849f824d7e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ba66b19aece4787324c80b45f228598e = $(`<div id="html_ba66b19aece4787324c80b45f228598e" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Pyrénées-Orientales</b><br>Prix Moyen/m² : 2,843 €<br>Nombre d'annonces : 11,769</div>`)[0];
+                popup_9bacec693503e0423aca67849f824d7e.setContent(html_ba66b19aece4787324c80b45f228598e);
+            
+        
+
+        circle_marker_c3860b695b1f01436d11782edd1593ff.bindPopup(popup_9bacec693503e0423aca67849f824d7e)
+        ;
+
+        
+    
+    
+            var circle_marker_569ed4cab2869b009918168edacd336c = L.circleMarker(
+                [45.8802348, 4.5645336],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.170180183115571, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_4f345da309aa295bc1a2e5b19098ca4d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_488760927b37e3126fe9151f44dc765d = $(`<div id="html_488760927b37e3126fe9151f44dc765d" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Rhône</b><br>Prix Moyen/m² : 3,578 €<br>Nombre d'annonces : 11,479</div>`)[0];
+                popup_4f345da309aa295bc1a2e5b19098ca4d.setContent(html_488760927b37e3126fe9151f44dc765d);
+            
+        
+
+        circle_marker_569ed4cab2869b009918168edacd336c.bindPopup(popup_4f345da309aa295bc1a2e5b19098ca4d)
+        ;
+
+        
+    
+    
+            var circle_marker_4e8e474b585d8365d88f59265182fb41 = L.circleMarker(
+                [48.0269288, 0.2538217],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.449578052197713, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_c6c03b9719f8340902e8a83201126e5f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_55e2b3dd78bde3e1e0aa197ba20bacc2 = $(`<div id="html_55e2b3dd78bde3e1e0aa197ba20bacc2" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Sarthe</b><br>Prix Moyen/m² : 2,337 €<br>Nombre d'annonces : 4,235</div>`)[0];
+                popup_c6c03b9719f8340902e8a83201126e5f.setContent(html_55e2b3dd78bde3e1e0aa197ba20bacc2);
+            
+        
+
+        circle_marker_4e8e474b585d8365d88f59265182fb41.bindPopup(popup_c6c03b9719f8340902e8a83201126e5f)
+        ;
+
+        
+    
+    
+            var circle_marker_5c9e5c17bd645292c4e6f4ab7c6db027 = L.circleMarker(
+                [45.4948952, 6.3846604],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.871200026066274, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_f08b3469575aa3ce50d2369e9494bd83 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0eb74d6058b6b334d77a48da62d93b39 = $(`<div id="html_0eb74d6058b6b334d77a48da62d93b39" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Savoie</b><br>Prix Moyen/m² : 4,698 €<br>Nombre d'annonces : 4,882</div>`)[0];
+                popup_f08b3469575aa3ce50d2369e9494bd83.setContent(html_0eb74d6058b6b334d77a48da62d93b39);
+            
+        
+
+        circle_marker_5c9e5c17bd645292c4e6f4ab7c6db027.bindPopup(popup_f08b3469575aa3ce50d2369e9494bd83)
+        ;
+
+        
+    
+    
+            var circle_marker_f63e0ec88ee3621276842d9c70779620 = L.circleMarker(
+                [46.6557086, 4.5586835],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.834707243165749, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_73f07d9bdafbdb0fd44f69f83027ba1b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e177f5c8cd1e1a4dac75ca4be35d8a88 = $(`<div id="html_e177f5c8cd1e1a4dac75ca4be35d8a88" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Saône-et-Loire</b><br>Prix Moyen/m² : 1,680 €<br>Nombre d'annonces : 4,826</div>`)[0];
+                popup_73f07d9bdafbdb0fd44f69f83027ba1b.setContent(html_e177f5c8cd1e1a4dac75ca4be35d8a88);
+            
+        
+
+        circle_marker_f63e0ec88ee3621276842d9c70779620.bindPopup(popup_73f07d9bdafbdb0fd44f69f83027ba1b)
+        ;
+
+        
+    
+    
+            var circle_marker_ddf6acdaa1842b63afdef902e4aa0010 = L.circleMarker(
+                [49.6613528, 0.9373524],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.146427291388356, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_5b99e56ea9e1cd5bc7be36ad5ee4461b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8c36fb4e12efef0e411e39aa4fb36f15 = $(`<div id="html_8c36fb4e12efef0e411e39aa4fb36f15" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Seine-Maritime</b><br>Prix Moyen/m² : 2,256 €<br>Nombre d'annonces : 9,908</div>`)[0];
+                popup_5b99e56ea9e1cd5bc7be36ad5ee4461b.setContent(html_8c36fb4e12efef0e411e39aa4fb36f15);
+            
+        
+
+        circle_marker_ddf6acdaa1842b63afdef902e4aa0010.bindPopup(popup_5b99e56ea9e1cd5bc7be36ad5ee4461b)
+        ;
+
+        
+    
+    
+            var circle_marker_fc0ae60b22d601103fcc8332742a7680 = L.circleMarker(
+                [48.9098125, 2.4528635],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.876999771920108, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_a6ede31104f6c971667c01a69dee3531 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a272a7d0f88501bf7135138cb58baca5 = $(`<div id="html_a272a7d0f88501bf7135138cb58baca5" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Seine-Saint-Denis</b><br>Prix Moyen/m² : 4,181 €<br>Nombre d'annonces : 7,960</div>`)[0];
+                popup_a6ede31104f6c971667c01a69dee3531.setContent(html_a272a7d0f88501bf7135138cb58baca5);
+            
+        
+
+        circle_marker_fc0ae60b22d601103fcc8332742a7680.bindPopup(popup_a6ede31104f6c971667c01a69dee3531)
+        ;
+
+        
+    
+    
+            var circle_marker_3ea0a5b8a674886cfc9f5f14c98e4df2 = L.circleMarker(
+                [48.6190207, 3.0418158],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.072724903066046, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_c47b3dec1d9e213844447fcc3084e759 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_37985251b060cd6a971308c1eca6d8ea = $(`<div id="html_37985251b060cd6a971308c1eca6d8ea" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Seine-et-Marne</b><br>Prix Moyen/m² : 2,410 €<br>Nombre d'annonces : 12,864</div>`)[0];
+                popup_c47b3dec1d9e213844447fcc3084e759.setContent(html_37985251b060cd6a971308c1eca6d8ea);
+            
+        
+
+        circle_marker_3ea0a5b8a674886cfc9f5f14c98e4df2.bindPopup(popup_c47b3dec1d9e213844447fcc3084e759)
+        ;
+
+        
+    
+    
+            var circle_marker_aae49985ff604c2e2bdcd69b908eaa7c = L.circleMarker(
+                [49.9689482, 2.3738855],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.827539017953146, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_03baf1c787e5e6e66544d9742e1606af = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c51db3a0625245305b8863c5cd96e120 = $(`<div id="html_c51db3a0625245305b8863c5cd96e120" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Somme</b><br>Prix Moyen/m² : 3,275 €<br>Nombre d'annonces : 4,815</div>`)[0];
+                popup_03baf1c787e5e6e66544d9742e1606af.setContent(html_c51db3a0625245305b8863c5cd96e120);
+            
+        
+
+        circle_marker_aae49985ff604c2e2bdcd69b908eaa7c.bindPopup(popup_03baf1c787e5e6e66544d9742e1606af)
+        ;
+
+        
+    
+    
+            var circle_marker_4f3885b296f367df9ea2f70bca1bbad5 = L.circleMarker(
+                [43.7921741, 2.1339648],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.604020722687433, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_c286503fd2b4bb88269b149a04ea45f7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_08b92c06f28273ed7dca3c234bd77150 = $(`<div id="html_08b92c06f28273ed7dca3c234bd77150" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Tarn</b><br>Prix Moyen/m² : 1,545 €<br>Nombre d'annonces : 4,472</div>`)[0];
+                popup_c286503fd2b4bb88269b149a04ea45f7.setContent(html_08b92c06f28273ed7dca3c234bd77150);
+            
+        
+
+        circle_marker_4f3885b296f367df9ea2f70bca1bbad5.bindPopup(popup_c286503fd2b4bb88269b149a04ea45f7)
+        ;
+
+        
+    
+    
+            var circle_marker_d607e2112ce40539b6a1f854b6fbca80 = L.circleMarker(
+                [44.080656, 1.2050633],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.878075005701997, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_8a20f51d618b6ec5b3b43bf0b16cce94 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3df132a55d584a415747008adbe456e5 = $(`<div id="html_3df132a55d584a415747008adbe456e5" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Tarn-et-Garonne</b><br>Prix Moyen/m² : 1,585 €<br>Nombre d'annonces : 3,358</div>`)[0];
+                popup_8a20f51d618b6ec5b3b43bf0b16cce94.setContent(html_3df132a55d584a415747008adbe456e5);
+            
+        
+
+        circle_marker_d607e2112ce40539b6a1f854b6fbca80.bindPopup(popup_8a20f51d618b6ec5b3b43bf0b16cce94)
+        ;
+
+        
+    
+    
+            var circle_marker_2514e2f72cc55a95781c14806f4d2338 = L.circleMarker(
+                [47.629231, 6.8993012],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.356456290117624, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_d8a1c7fdc34b9b4b2c92f69314092395 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_58cdb296ae80db1f5e46fd2d47c79269 = $(`<div id="html_58cdb296ae80db1f5e46fd2d47c79269" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Territoire de Belfort</b><br>Prix Moyen/m² : 1,411 €<br>Nombre d'annonces : 1,023</div>`)[0];
+                popup_d8a1c7fdc34b9b4b2c92f69314092395.setContent(html_58cdb296ae80db1f5e46fd2d47c79269);
+            
+        
+
+        circle_marker_2514e2f72cc55a95781c14806f4d2338.bindPopup(popup_d8a1c7fdc34b9b4b2c92f69314092395)
+        ;
+
+        
+    
+    
+            var circle_marker_4147912b28ec9be1f3c9ee1fc6a2d68e = L.circleMarker(
+                [49.0750705, 2.2098114],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.814733961096087, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_4ef5dd45975f0cd42790dc9ebc50e47e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3a73e3d56160a3e4f8f446cd19894a2c = $(`<div id="html_3a73e3d56160a3e4f8f446cd19894a2c" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Val-d'Oise</b><br>Prix Moyen/m² : 3,216 €<br>Nombre d'annonces : 9,399</div>`)[0];
+                popup_4ef5dd45975f0cd42790dc9ebc50e47e.setContent(html_3a73e3d56160a3e4f8f446cd19894a2c);
+            
+        
+
+        circle_marker_4147912b28ec9be1f3c9ee1fc6a2d68e.bindPopup(popup_4ef5dd45975f0cd42790dc9ebc50e47e)
+        ;
+
+        
+    
+    
+            var circle_marker_a04ad666c4384cd2b49ddeb094465157 = L.circleMarker(
+                [48.7744894, 2.4543321],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.451761102603369, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_ee1730011d69d7a54024cc295ae797a9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9fefa2f749665ee9f16890c49276f5c7 = $(`<div id="html_9fefa2f749665ee9f16890c49276f5c7" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Val-de-Marne</b><br>Prix Moyen/m² : 4,976 €<br>Nombre d'annonces : 8,842</div>`)[0];
+                popup_ee1730011d69d7a54024cc295ae797a9.setContent(html_9fefa2f749665ee9f16890c49276f5c7);
+            
+        
+
+        circle_marker_a04ad666c4384cd2b49ddeb094465157.bindPopup(popup_ee1730011d69d7a54024cc295ae797a9)
+        ;
+
+        
+    
+    
+            var circle_marker_56d191dc9025b69c8a857f26b182ec25 = L.circleMarker(
+                [43.4173551, 6.2664637],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.410576390472777, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_20ece95591eeb1536e4b0f0c4b35718c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4db14d3056b661a702c723ef52ffe2fd = $(`<div id="html_4db14d3056b661a702c723ef52ffe2fd" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Var</b><br>Prix Moyen/m² : 4,819 €<br>Nombre d'annonces : 14,917</div>`)[0];
+                popup_20ece95591eeb1536e4b0f0c4b35718c.setContent(html_4db14d3056b661a702c723ef52ffe2fd);
+            
+        
+
+        circle_marker_56d191dc9025b69c8a857f26b182ec25.bindPopup(popup_20ece95591eeb1536e4b0f0c4b35718c)
+        ;
+
+        
+    
+    
+            var circle_marker_1de0732e9cccb3749b80947320d245a5 = L.circleMarker(
+                [43.9938644, 5.1818898],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.545958098465348, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_01f75f49a01b7f719c967dbf80b08991 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e1bb10a309dd63c61ec394a3e6c21f46 = $(`<div id="html_e1bb10a309dd63c61ec394a3e6c21f46" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Vaucluse</b><br>Prix Moyen/m² : 3,506 €<br>Nombre d'annonces : 7,452</div>`)[0];
+                popup_01f75f49a01b7f719c967dbf80b08991.setContent(html_e1bb10a309dd63c61ec394a3e6c21f46);
+            
+        
+
+        circle_marker_1de0732e9cccb3749b80947320d245a5.bindPopup(popup_01f75f49a01b7f719c967dbf80b08991)
+        ;
+
+        
+    
+    
+            var circle_marker_d53485ca63655836dbffe37945743a07 = L.circleMarker(
+                [46.6757733, -1.2914463],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.744648268221955, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_d81b46a70e74e88680e1202684963bce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fafb7824953e0a109894307efec1710b = $(`<div id="html_fafb7824953e0a109894307efec1710b" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Vendée</b><br>Prix Moyen/m² : 2,949 €<br>Nombre d'annonces : 10,826</div>`)[0];
+                popup_d81b46a70e74e88680e1202684963bce.setContent(html_fafb7824953e0a109894307efec1710b);
+            
+        
+
+        circle_marker_d53485ca63655836dbffe37945743a07.bindPopup(popup_d81b46a70e74e88680e1202684963bce)
+        ;
+
+        
+    
+    
+            var circle_marker_4e56a447281105b36d3b455842018488 = L.circleMarker(
+                [46.6121165, 0.465407],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.652894985500636, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_463bf3ab76ad2302b5a2ddf06d452ded = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_45f80a895d4ddc9b4a5e30b3215121f1 = $(`<div id="html_45f80a895d4ddc9b4a5e30b3215121f1" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Vienne</b><br>Prix Moyen/m² : 3,744 €<br>Nombre d'annonces : 4,547</div>`)[0];
+                popup_463bf3ab76ad2302b5a2ddf06d452ded.setContent(html_45f80a895d4ddc9b4a5e30b3215121f1);
+            
+        
+
+        circle_marker_4e56a447281105b36d3b455842018488.bindPopup(popup_463bf3ab76ad2302b5a2ddf06d452ded)
+        ;
+
+        
+    
+    
+            var circle_marker_3086d4b483320a4b6aebdeb4d2bbe90b = L.circleMarker(
+                [48.1637861, 6.3820712],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.567234694210029, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_bae07f7d5f486fa76c2f578874cc6b1f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9cec99d2e942ecfd9ea935bc421ba76c = $(`<div id="html_9cec99d2e942ecfd9ea935bc421ba76c" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Vosges</b><br>Prix Moyen/m² : 1,665 €<br>Nombre d'annonces : 2,881</div>`)[0];
+                popup_bae07f7d5f486fa76c2f578874cc6b1f.setContent(html_9cec99d2e942ecfd9ea935bc421ba76c);
+            
+        
+
+        circle_marker_3086d4b483320a4b6aebdeb4d2bbe90b.bindPopup(popup_bae07f7d5f486fa76c2f578874cc6b1f)
+        ;
+
+        
+    
+    
+            var circle_marker_990813fc989c7bbce89bf3c0b078eb88 = L.circleMarker(
+                [47.8551258, 3.6450439],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.671141376950898, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_d28d9e95b5f24d81743a58aaaf7602ac = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a50b40659abea0a63062b6597ab06bbf = $(`<div id="html_a50b40659abea0a63062b6597ab06bbf" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Yonne</b><br>Prix Moyen/m² : 1,336 €<br>Nombre d'annonces : 4,575</div>`)[0];
+                popup_d28d9e95b5f24d81743a58aaaf7602ac.setContent(html_a50b40659abea0a63062b6597ab06bbf);
+            
+        
+
+        circle_marker_990813fc989c7bbce89bf3c0b078eb88.bindPopup(popup_d28d9e95b5f24d81743a58aaaf7602ac)
+        ;
+
+        
+    
+    
+            var circle_marker_8f528070ca64048ea59904e161b9c97c = L.circleMarker(
+                [48.7620374, 1.8871376],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.012120817177674, "stroke": true, "weight": 3}
+            ).addTo(map_13493a25d961e5584044add67a2b3fef);
+        
+    
+        var popup_041baf730770ac35023222be16629cdc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cdaa2dd8f0756cab4bb0fb12a7b430ac = $(`<div id="html_cdaa2dd8f0756cab4bb0fb12a7b430ac" style="width: 100.0%; height: 100.0%;"><b style='font-size:16px'>Département : Yvelines</b><br>Prix Moyen/m² : 3,926 €<br>Nombre d'annonces : 12,771</div>`)[0];
+                popup_041baf730770ac35023222be16629cdc.setContent(html_cdaa2dd8f0756cab4bb0fb12a7b430ac);
+            
+        
+
+        circle_marker_8f528070ca64048ea59904e161b9c97c.bindPopup(popup_041baf730770ac35023222be16629cdc)
+        ;
+
+        
+    
+    
+    var color_map_0cb513b47feef2ffbc41207f6d508997 = {};
+
+    
+    color_map_0cb513b47feef2ffbc41207f6d508997.color = d3.scale.threshold()
+              .domain([948.3815689261234, 970.5081661151933, 992.6347633042632, 1014.7613604933331, 1036.887957682403, 1059.014554871473, 1081.141152060543, 1103.2677492496127, 1125.3943464386828, 1147.5209436277528, 1169.6475408168226, 1191.7741380058926, 1213.9007351949624, 1236.0273323840324, 1258.1539295731022, 1280.2805267621723, 1302.4071239512423, 1324.533721140312, 1346.660318329382, 1368.7869155184521, 1390.913512707522, 1413.040109896592, 1435.1667070856618, 1457.2933042747318, 1479.4199014638016, 1501.5464986528716, 1523.6730958419416, 1545.7996930310114, 1567.9262902200812, 1590.0528874091515, 1612.1794845982213, 1634.306081787291, 1656.432678976361, 1678.5592761654311, 1700.685873354501, 1722.8124705435707, 1744.939067732641, 1767.0656649217108, 1789.1922621107806, 1811.3188592998506, 1833.4454564889206, 1855.5720536779904, 1877.6986508670605, 1899.8252480561302, 1921.9518452452003, 1944.07844243427, 1966.2050396233403, 1988.3316368124101, 2010.45823400148, 2032.5848311905497, 2054.71142837962, 2076.83802556869, 2098.9646227577596, 2121.0912199468294, 2143.2178171358996, 2165.3444143249694, 2187.471011514039, 2209.5976087031095, 2231.7242058921793, 2253.850803081249, 2275.9774002703193, 2298.103997459389, 2320.230594648459, 2342.357191837529, 2364.483789026599, 2386.6103862156688, 2408.7369834047386, 2430.863580593809, 2452.9901777828786, 2475.1167749719484, 2497.243372161018, 2519.3699693500885, 2541.4965665391583, 2563.623163728228, 2585.749760917298, 2607.876358106368, 2630.002955295438, 2652.1295524845077, 2674.256149673578, 2696.3827468626478, 2718.5093440517176, 2740.635941240788, 2762.7625384298576, 2784.8891356189274, 2807.0157328079977, 2829.1423299970675, 2851.2689271861373, 2873.395524375207, 2895.5221215642773, 2917.648718753347, 2939.775315942417, 2961.9019131314867, 2984.028510320557, 3006.1551075096268, 3028.2817046986966, 3050.408301887767, 3072.534899076836, 3094.6614962659064, 3116.788093454976, 3138.914690644046, 3161.0412878331163, 3183.167885022186, 3205.294482211256, 3227.421079400326, 3249.547676589396, 3271.674273778466, 3293.8008709675355, 3315.9274681566058, 3338.054065345676, 3360.1806625347454, 3382.3072597238156, 3404.433856912886, 3426.560454101955, 3448.6870512910255, 3470.8136484800953, 3492.940245669165, 3515.0668428582353, 3537.193440047305, 3559.320037236375, 3581.4466344254447, 3603.573231614515, 3625.6998288035848, 3647.8264259926545, 3669.953023181725, 3692.0796203707946, 3714.2062175598644, 3736.3328147489347, 3758.459411938004, 3780.5860091270742, 3802.7126063161445, 3824.839203505214, 3846.965800694284, 3869.092397883354, 3891.2189950724237, 3913.345592261494, 3935.4721894505637, 3957.5987866396335, 3979.725383828704, 4001.8519810177736, 4023.9785782068434, 4046.105175395913, 4068.2317725849834, 4090.3583697740532, 4112.484966963123, 4134.611564152194, 4156.738161341263, 4178.864758530333, 4200.991355719403, 4223.117952908473, 4245.244550097543, 4267.371147286613, 4289.497744475682, 4311.624341664753, 4333.750938853823, 4355.877536042893, 4378.004133231962, 4400.130730421032, 4422.257327610102, 4444.383924799173, 4466.5105219882425, 4488.637119177312, 4510.763716366382, 4532.890313555452, 4555.016910744522, 4577.1435079335915, 4599.270105122662, 4621.396702311731, 4643.523299500802, 4665.649896689872, 4687.776493878941, 4709.903091068011, 4732.029688257082, 4754.156285446151, 4776.2828826352215, 4798.409479824291, 4820.536077013361, 4842.662674202431, 4864.789271391501, 4886.915868580571, 4909.04246576964, 4931.169062958711, 4953.295660147781, 4975.422257336851, 4997.54885452592, 5019.675451714991, 5041.80204890406, 5063.928646093131, 5086.0552432822005, 5108.18184047127, 5130.30843766034, 5152.435034849411, 5174.56163203848, 5196.6882292275495, 5218.81482641662, 5240.94142360569, 5263.06802079476, 5285.19461798383, 5307.321215172899, 5329.447812361969, 5351.57440955104, 5373.70100674011, 5395.8276039291795, 5417.954201118249, 5440.080798307319, 5462.207395496389, 5484.33399268546, 5506.460589874529, 5528.587187063598, 5550.713784252669, 5572.840381441739, 5594.9669786308095, 5617.093575819879, 5639.220173008948, 5661.346770198018, 5683.473367387089, 5705.5999645761585, 5727.726561765229, 5749.853158954298, 5771.979756143368, 5794.106353332439, 5816.232950521508, 5838.359547710578, 5860.486144899649, 5882.612742088718, 5904.739339277788, 5926.865936466858, 5948.992533655928, 5971.119130844998, 5993.245728034068, 6015.3723252231375, 6037.498922412207, 6059.625519601278, 6081.752116790348, 6103.878713979417, 6126.005311168487, 6148.131908357557, 6170.258505546627, 6192.385102735698, 6214.511699924767, 6236.638297113836, 6258.764894302907, 6280.891491491977, 6303.018088681047, 6325.1446858701165, 6347.271283059186, 6369.397880248256, 6391.524477437327, 6413.651074626397, 6435.777671815466, 6457.904269004536, 6480.030866193606, 6502.157463382676, 6524.2840605717465, 6546.410657760816, 6568.537254949885, 6590.663852138956, 6612.790449328026, 6634.9170465170955, 6657.043643706166, 6679.170240895235, 6701.296838084305, 6723.423435273376, 6745.550032462445, 6767.676629651515, 6789.803226840585, 6811.929824029655, 6834.056421218725, 6856.183018407795, 6878.309615596865, 6900.436212785935, 6922.562809975005, 6944.6894071640745, 6966.816004353144, 6988.942601542215, 7011.069198731285, 7033.195795920354, 7055.322393109424, 7077.448990298494, 7099.575587487564, 7121.702184676635, 7143.828781865704, 7165.955379054773, 7188.081976243844, 7210.208573432914, 7232.335170621984, 7254.4617678110535, 7276.588365000123, 7298.714962189193, 7320.841559378264, 7342.968156567334, 7365.0947537564025, 7387.221350945473, 7409.347948134543, 7431.474545323613, 7453.6011425126835, 7475.727739701753, 7497.854336890822, 7519.980934079893, 7542.107531268963, 7564.2341284580325, 7586.360725647103, 7608.487322836172, 7630.613920025242, 7652.740517214313, 7674.867114403382, 7696.993711592452, 7719.120308781522, 7741.246905970592, 7763.373503159662, 7785.500100348732, 7807.626697537802, 7829.753294726871, 7851.879891915942, 7874.0064891050115, 7896.133086294081, 7918.259683483152, 7940.386280672222, 7962.512877861291, 7984.639475050361, 8006.766072239431, 8028.892669428501, 8051.019266617572, 8073.145863806641, 8095.27246099571, 8117.399058184781, 8139.525655373851, 8161.652252562921, 8183.7788497519905, 8205.90544694106, 8228.03204413013, 8250.1586413192, 8272.28523850827, 8294.41183569734, 8316.53843288641, 8338.665030075479, 8360.791627264549, 8382.91822445362, 8405.044821642688, 8427.171418831758, 8449.29801602083, 8471.4246132099, 8493.55121039897, 8515.67780758804, 8537.804404777109, 8559.931001966179, 8582.057599155249, 8604.184196344318, 8626.310793533388, 8648.437390722458, 8670.563987911528, 8692.690585100598, 8714.81718228967, 8736.943779478739, 8759.070376667807, 8781.196973856879, 8803.323571045948, 8825.450168235018, 8847.576765424088, 8869.703362613158, 8891.829959802228, 8913.956556991297, 8936.083154180367, 8958.209751369439, 8980.336348558509, 9002.462945747577, 9024.589542936648, 9046.716140125718, 9068.842737314788, 9090.969334503858, 9113.095931692927, 9135.222528881997, 9157.349126071067, 9179.475723260137, 9201.602320449207, 9223.728917638276, 9245.855514827346, 9267.982112016416, 9290.108709205486, 9312.235306394556, 9334.361903583625, 9356.488500772697, 9378.615097961767, 9400.741695150835, 9422.868292339905, 9444.994889528974, 9467.121486718046, 9489.248083907116, 9511.374681096186, 9533.501278285255, 9555.627875474325, 9577.754472663395, 9599.881069852467, 9622.007667041535, 9644.134264230604, 9666.260861419674, 9688.387458608744, 9710.514055797814, 9732.640652986885, 9754.767250175955, 9776.893847365025, 9799.020444554095, 9821.147041743165, 9843.273638932234, 9865.400236121304, 9887.526833310374, 9909.653430499444, 9931.780027688514, 9953.906624877583, 9976.033222066653, 9998.159819255725, 10020.286416444795, 10042.413013633864, 10064.539610822934, 10086.666208012002, 10108.792805201072, 10130.919402390144, 10153.045999579213, 10175.172596768283, 10197.299193957353, 10219.425791146423, 10241.552388335494, 10263.678985524564, 10285.805582713634, 10307.932179902704, 10330.058777091772, 10352.185374280842, 10374.311971469911, 10396.438568658983, 10418.565165848053, 10440.691763037123, 10462.818360226192, 10484.944957415262, 10507.071554604334, 10529.198151793404, 10551.324748982472, 10573.451346171541, 10595.577943360611, 10617.704540549681, 10639.831137738753, 10661.957734927822, 10684.084332116892, 10706.210929305962, 10728.337526495032, 10750.464123684102, 10772.590720873173, 10794.717318062241, 10816.843915251311, 10838.97051244038, 10861.09710962945, 10883.22370681852, 10905.350304007592, 10927.476901196662, 10949.603498385732, 10971.730095574801, 10993.856692763871, 11015.98328995294, 11038.10988714201, 11060.23648433108, 11082.36308152015, 11104.48967870922, 11126.61627589829, 11148.74287308736, 11170.869470276431, 11192.996067465501, 11215.122664654571, 11237.249261843639, 11259.375859032709, 11281.502456221779, 11303.62905341085, 11325.75565059992, 11347.88224778899, 11370.00884497806, 11392.13544216713, 11414.2620393562, 11436.38863654527, 11458.51523373434, 11480.641830923409, 11502.768428112478, 11524.895025301548, 11547.021622490618, 11569.14821967969, 11591.27481686876, 11613.40141405783, 11635.528011246899, 11657.654608435969, 11679.781205625039, 11701.907802814108, 11724.034400003178, 11746.160997192248, 11768.287594381318, 11790.414191570388, 11812.540788759457, 11834.667385948529, 11856.793983137599, 11878.920580326669, 11901.047177515738, 11923.173774704808, 11945.300371893876, 11967.426969082948, 11989.553566272018])
+              .range(['#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff']);
+    
+
+    color_map_0cb513b47feef2ffbc41207f6d508997.x = d3.scale.linear()
+              .domain([948.3815689261234, 11989.553566272018])
+              .range([0, 450 - 50]);
+
+    color_map_0cb513b47feef2ffbc41207f6d508997.legend = L.control({position: 'topright'});
+    color_map_0cb513b47feef2ffbc41207f6d508997.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_0cb513b47feef2ffbc41207f6d508997.legend.addTo(map_13493a25d961e5584044add67a2b3fef);
+
+    color_map_0cb513b47feef2ffbc41207f6d508997.xAxis = d3.svg.axis()
+        .scale(color_map_0cb513b47feef2ffbc41207f6d508997.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([948.3815689261234, 3156.6159683953024, 5364.850367864482, 7573.08476733366, 9781.31916680284, 11989.553566272018]);
+
+    color_map_0cb513b47feef2ffbc41207f6d508997.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_0cb513b47feef2ffbc41207f6d508997.g = color_map_0cb513b47feef2ffbc41207f6d508997.svg.append("g")
+        .attr("class", "key")
+        .attr("fill", "black")
+        .attr("transform", "translate(25,16)");
+
+    color_map_0cb513b47feef2ffbc41207f6d508997.g.selectAll("rect")
+        .data(color_map_0cb513b47feef2ffbc41207f6d508997.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_0cb513b47feef2ffbc41207f6d508997.x(color_map_0cb513b47feef2ffbc41207f6d508997.color.domain()[i - 1]) : color_map_0cb513b47feef2ffbc41207f6d508997.x.range()[0],
+            x1: i < color_map_0cb513b47feef2ffbc41207f6d508997.color.domain().length ? color_map_0cb513b47feef2ffbc41207f6d508997.x(color_map_0cb513b47feef2ffbc41207f6d508997.color.domain()[i]) : color_map_0cb513b47feef2ffbc41207f6d508997.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_0cb513b47feef2ffbc41207f6d508997.g.call(color_map_0cb513b47feef2ffbc41207f6d508997.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .attr("fill", "black")
+        .text("");
+</script>
+</html>
